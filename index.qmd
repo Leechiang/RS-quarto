@@ -1,6 +1,3 @@
 # About me {.unnumbered}
 Hi guys, my name is Chi-Li CHIANG, I’m from Taiwan. I’ve just graduated from my previous study which is Architectural Environment Engineering in the University of Nottingham. As you can see this seemed to be a big pivot from my previous study to Urban Spatial Science because after three years of study, I thought that our previous investigations on building energy performances are lack of efficient and convincing quantitative analysis. Therefore, I chose this degree to develop my skills of coding, data processing and analyzing. Since that I got a huge interesting on modeling, so I took Remotely Sensing in this Term. In my point of view, the technique of Remotely Sensing enables us to monitor the lately changes of environment and weather which helps us to develop more energy efficient and sustainable buildings. <https://quarto.org/docs/books>.
 
-```{r}
-1 + 1
-```
