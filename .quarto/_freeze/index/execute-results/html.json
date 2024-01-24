@@ -1,7 +1,7 @@
 {
-  "hash": "02e8bc16c4d6fce95039d4c88ba5d200",
+  "hash": "b2c711a105fa639650cef9796fce4751",
   "result": {
-    "markdown": "# Index1 {.unnumbered}\n\nThis is a Quarto book.\n\nTo learn more about Quarto books visit <https://quarto.org/docs/books>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "markdown": "# About me {.unnumbered}\nHi guys, my name is Chi-Li CHIANG, I’m from Taiwan. I’ve just graduated from my previous study which is Architectural Environment Engineering in the University of Nottingham. As you can see this seemed to be a big pivot from my previous study to Urban Spatial Science because after three years of study, I thought that our previous investigations on building energy performances are lack of efficient and convincing quantitative analysis. Therefore, I chose this degree to develop my skills of coding, data processing and analyzing. Since that I got a huge interesting on modeling, so I took Remotely Sensing in this Term. In my point of view, the technique of Remotely Sensing enables us to monitor the lately changes of environment and weather which helps us to develop more energy efficient and sustainable buildings. <https://quarto.org/docs/books>.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
