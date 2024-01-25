@@ -1,5 +1,6 @@
---
 # Week1
---
-
 ## Summary
+The first week lecture briefly introduced what remote sensing is and the basic types of it. 
+
+## Applications
+## Reflections
