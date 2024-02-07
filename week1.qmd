@@ -1,4 +1,4 @@
-# Week1
+# Week 1
 ## Summary
 ### Introduction of remote sensing
 The first week lecture briefly introduced what remote sensing is and the basic types of it (passive and active). 
