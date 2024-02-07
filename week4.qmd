@@ -1,7 +1,18 @@
 # Week 4
 ## Summary
-### Introduction of remote sensing
-The first week lecture briefly introduced what remote sensing is and the basic types of it (passive and active). 
+### The London Plan 2021-Policy SI 2
+The Greater London Authority publishes the London Plan, which is the statutory spatial development strategy for the Greater London area in the United Kingdom, and is authored by the Mayor of London.   It is periodically updated.  The Greater London Authority approved a new London Plan in March 2021 that includes planning for the ensuing 20 to 25 years. Moreover, in the London Plan 2021, there is a Policy SI 2 section which aims to reduce greenhouse gas emissions.  This policy aims to address climate change and steer London towards a low-carbon, sustainable future.For instance, the key points of the Policy SI 2 are listed in the following:
+
+1. Reducing Carbon Emissions
+
+2. Energy Efficiency
+
+3. Renewable Energy
+
+4. Transport Planning
+
+5. Sustainable Development
+
 
 ## Applications
 ## Reflections
