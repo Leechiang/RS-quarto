@@ -8,7 +8,8 @@ The Greater London Authority publishes the London Plan, which is the statutory s
 
 The graph below is an example of urban greening (Green wall):
 ![An example of Green Wall](R.jpg)
- 
+
+In order to promote greater and better urban greening, several cities have effectively implemented the "green space factor."(UGF)    The Mayor created a generic Urban Greening Factor model to help boroughs and developers determine the appropriate level of urban greening for new developments.
 ## Applications
 
 ## Reflections
