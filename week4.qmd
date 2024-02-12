@@ -19,5 +19,6 @@ Area.
 The Mayor recommends a target score of 0.4 for residential developments and 0.3 for commercial development.
 
 ## Applications
+The suggested data for supervising the greening area. Therefore, it is suggested that using the data from Copernicus which the UK involved from 1 January 2024.Moreover, there are several existing research which investigated using remote sensing technology 
 
 ## Reflections
