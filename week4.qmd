@@ -10,7 +10,10 @@ The graph below is an example of urban greening (Green wall): ![An example of Gr
 
 In order to promote greater and better urban greening, several cities have effectively implemented the "green space factor."(UGF) The Mayor created a generic Urban Greening Factor model to help boroughs and developers determine the appropriate level of urban greening for new developments.
 
-The table below shows some of the factors used to calculate the UGF: ![UGF factors](240212.jpg) For instance, by using the factors above, the UGF can be calculated by: (Factor A x Area) + (Factor B x Area) + (Factor C x Area) etc. divided by Total Site Area. The Mayor recommends a target score of 0.4 for residential developments and 0.3 for commercial development.
+The table below shows some of the factors used to calculate the UGF:
+![UGF factors](240212.jpg) 
+
+For instance, by using the factors above, the UGF can be calculated by: (Factor A x Area) + (Factor B x Area) + (Factor C x Area) etc. divided by Total Site Area. The Mayor recommends a target score of 0.4 for residential developments and 0.3 for commercial development.
 
 ## Applications
 
