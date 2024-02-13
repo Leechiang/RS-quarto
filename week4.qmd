@@ -4,21 +4,16 @@
 
 ### The London Plan 2021
 
-The Greater London Authority publishes the London Plan, which is the statutory spatial development strategy for the Greater London area in the United Kingdom, and is authored by the Mayor of London. It is periodically updated. The Greater London Authority approved a new London Plan in March 2021 that includes planning for the ensuing 20 to 25 years. Moreover, in the London Plan 2021, there is a Policy G5 Urban greening section which aims to increase the greening coverage in London urban areas. Urban greening includes a variety of options such as street trees, green roofs, green walls, and rain gardens.    It can help meet other policy requirements while also providing a variety of benefits such as amenity space, increased biodiversity, mitigation of the urban heat island effect, sustainable drainage, and amenity.
+The Greater London Authority publishes the London Plan, which is the statutory spatial development strategy for the Greater London area in the United Kingdom, and is authored by the Mayor of London. It is periodically updated. The Greater London Authority approved a new London Plan in March 2021 that includes planning for the ensuing 20 to 25 years. Moreover, in the London Plan 2021, there is a Policy G5 Urban greening section which aims to increase the greening coverage in London urban areas. Urban greening includes a variety of options such as street trees, green roofs, green walls, and rain gardens. It can help meet other policy requirements while also providing a variety of benefits such as amenity space, increased biodiversity, mitigation of the urban heat island effect, sustainable drainage, and amenity.
 
-The graph below is an example of urban greening (Green wall):
-![An example of Green Wall](R.jpg)
+The graph below is an example of urban greening (Green wall): ![An example of Green Wall](R.jpg)
 
-In order to promote greater and better urban greening, several cities have effectively implemented the "green space factor."(UGF)    The Mayor created a generic Urban Greening Factor model to help boroughs and developers determine the appropriate level of urban greening for new developments.
+In order to promote greater and better urban greening, several cities have effectively implemented the "green space factor."(UGF) The Mayor created a generic Urban Greening Factor model to help boroughs and developers determine the appropriate level of urban greening for new developments.
 
-The table below shows some of the factors used to calculate the UGF:
-![UGF factors](240212.jpg)
-For instance, by using the factors above, the UGF can be calculated by:
-(Factor A x Area) + (Factor B x Area) + (Factor C x Area) etc. divided by Total Site 
-Area.
-The Mayor recommends a target score of 0.4 for residential developments and 0.3 for commercial development.
+The table below shows some of the factors used to calculate the UGF: ![UGF factors](240212.jpg) For instance, by using the factors above, the UGF can be calculated by: (Factor A x Area) + (Factor B x Area) + (Factor C x Area) etc. divided by Total Site Area. The Mayor recommends a target score of 0.4 for residential developments and 0.3 for commercial development.
 
 ## Applications
-The suggested data for supervising the greening area. Therefore, it is suggested that using the data from Copernicus which the UK involved from 1 January 2024.Moreover, there are several existing research which investigated using remote sensing technology 
+
+The suggested data for supervising the greening area. Therefore, it is suggested that using the data from Copernicus which the UK involved from 1 January 2024.Moreover, there are several existing research which investigated using remote sensing technology
 
 ## Reflections
