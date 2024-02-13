@@ -14,6 +14,6 @@ The table below shows some of the factors used to calculate the UGF: ![UGF facto
 
 ## Applications
 
-The suggested data for supervising the greening area. Therefore, it is suggested that using the data from Copernicus which the UK involved from 1 January 2024.Moreover, there are several existing research which investigated using remote sensing technology
+The suggested data for supervising the greening area. Therefore, it is suggested that using the data from Copernicus which the UK involved from 1 January 2024. Moreover, there are several existing research which investigated using remote sensing technology
 
 ## Reflections
