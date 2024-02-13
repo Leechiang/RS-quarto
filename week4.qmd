@@ -14,6 +14,6 @@ The table below shows some of the factors used to calculate the UGF: ![UGF facto
 
 ## Applications
 
-The suggested data for supervising the greening area. Therefore, it is suggested that using the data from Copernicus which the UK involved from 1 January 2024. Moreover, there are several existing research which investigated using remote sensing technology
+The suggested data for supervising the greening area. Therefore, it is suggested that using the data from Copernicus which the UK involved from 1 January 2024. Moreover, there are several existing research which investigated using remote sensing technology to monitor the area of forest. For example, a study (Huimian Li et al., 2023) uses single Landsat 8 (L) remote sensing data, single Sentinel-2 (S) remote sensing data, and combined Landsat 8 and Sentinel-2 (L + S) data as data sources.   In addition, four machine learning methods were applied.   The study demonstrates that machine learning models based on separate Landsat 8 OLI and Sentinel-2 satellite remote sensing data can accurately predict the AGC and spatiotemporal distribution of the Shanghai urban forest.
 
 ## Reflections
