@@ -46,14 +46,14 @@
     "href": "week1.html#summary",
     "title": "1  Week 1",
     "section": "1.1 Summary",
-    "text": "1.1 Summary\n\n1.1.1 Introduction of remote sensing\nRemote sensing unlike in situ or on-site observation, it involves gathering data about an object or phenomenon without coming into direct contact with it. \n\n\n1.1.2 Types of remote sensing"
+    "text": "1.1 Summary\n\n1.1.1 Introduction of remote sensing\nRemote sensing unlike in situ or on-site observation, it involves gathering data about an object or phenomenon without coming into direct contact with it.\n\n\n\nRemotesensing\n\n\nFurthermore, the types of remote sensing can be divided into passive and active. Passive sensors collect radiation emitted or reflected by the object or surrounding areas. Reflected sunlight is the most common type of radiation detected by passive sensors. Passive remote sensors include film cameras, infrared detectors, charge-coupled devices, and radiometers. Active sensors, on the other hand, emits energy to scan objects and areas, after which a sensor detects and measures the radiation reflected or backscattered by the target. Active remote sensing techniques include RADAR and LiDAR, which measure the time between emission and return to determine an object’s location, speed, and direction. \n\n\n1.1.2 Types of remote sensing"
   },
   {
     "objectID": "week1.html#applications",
     "href": "week1.html#applications",
     "title": "1  Week 1",
     "section": "1.2 Applications",
-    "text": "1.2 Applications"
+    "text": "1.2 Applications\nIn the applications part, I will mainly focus on sharing the practical result of first week.In the first week, I learned about how to use SNAP to process Sentinel data. In addition, Cape Town was chosen as the study area. The graph below is the screenshot of the Sentinel data:"
   },
   {
     "objectID": "week1.html#reflections",
