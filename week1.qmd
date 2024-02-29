@@ -4,7 +4,7 @@
 
 ### Introducing remote sensing
 
-Remote sensing unlike in situ or on-site observation, it involves gathering data about an object or phenomenon without coming into direct contact with it. 
+Remote sensing unlike on-site observation, it involves gathering data about an object or phenomenon without coming into direct contact with it. 
 
 ![Remote sensing](Remote-Sensing-Process.jpg)
 
