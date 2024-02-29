@@ -11,12 +11,13 @@ Remote sensing unlike on-site observation, it involves gathering data about an o
 Furthermore, the types of remote sensing can be divided into passive and active. Passive sensors collect radiation emitted or reflected by the object or surrounding areas.  Reflected sunlight is the most common type of radiation detected by passive sensors.  Passive remote sensors include film cameras, infrared detectors, charge-coupled devices, and radiometers.  Active sensors, on the other hand, emits energy to scan objects and areas, after which a sensor detects and measures the radiation reflected or backscattered by the target.  Active remote sensing techniques include RADAR and LiDAR, which measure the time between emission and return to determine an object's location, speed, and direction. 
 ![Types](Types of remote sensing.jpg)
 
-
-
 ## Applications
 In the applications part, I will mainly focus on sharing the practical result of first week.In the first week, I learned about how to use SNAP to process Sentinel 2 data. In addition, Cape Town was chosen as the study area. The graph below is the screenshot of the Sentinel data:
 ![Sentinel data](屏幕截图 2024-02-15 200519.jpg)
 Then, by comparing the band 4 and band 8 of the target area, a spectural feature space can be made:
 ![Scatter plot](240216.jpg)
+![Scatter plot](00002.jpg)
+![Scatter plot](000010.jpg)
+
 
 ## Reflections
