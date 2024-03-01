@@ -1,7 +1,6 @@
 # Week 1
 
 ## Summary
-
 ### Introducing remote sensing
 Remote sensing unlike on-site observation, it involves gathering data about an object or phenomenon without coming into direct contact with it. 
 
