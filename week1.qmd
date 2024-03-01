@@ -1,6 +1,7 @@
 # Week 1
 
 ## Summary
+In this part, the content of the lecture will not be summarized in detail. Instead, the terms and basic topics discussed in the lecture will be included.
 
 ### Introducing remote sensing
 Remote sensing unlike on-site observation, it involves gathering data about an object or phenomenon without coming into direct contact with it. 
@@ -8,7 +9,7 @@ Remote sensing unlike on-site observation, it involves gathering data about an o
 ![Remote sensing](Remote-Sensing-Process.jpg)
 
 #### Types of remote sensing
-Furthermore, the types of remote sensing can be divided into passive and active. Passive sensors collect radiation emitted or reflected by the object or surrounding areas.  Reflected sunlight is the most common type of radiation detected by passive sensors.  Passive remote sensors include film cameras, infrared detectors, charge-coupled devices, and radiometers.  Active sensors, on the other hand, emits energy to scan objects and areas, after which a sensor detects and measures the radiation reflected or backscattered by the target.  Active remote sensing techniques include RADAR and LiDAR, which measure the time between emission and return to determine an object's location, speed, and direction. 
+Furthermore, the types of remote sensing can be divided into passive and active. Passive sensors collect radiation emitted or reflected by the object or surrounding areas. Active sensors, on the other hand, emits energy to scan objects and areas, after which a sensor detects and measures the radiation reflected or backscattered by the target.
 ![Types](Types of remote sensing.jpg)
 
 #### Resolutions of remote sensing data
