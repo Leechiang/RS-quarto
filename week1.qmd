@@ -1,7 +1,6 @@
 # Week 1
 
 ## Summary
-In this part, the content of the lecture will not be summarized in detail. Instead, the terms and basic topics discussed in the lecture will be included.
 
 ### Introducing remote sensing
 Remote sensing unlike on-site observation, it involves gathering data about an object or phenomenon without coming into direct contact with it. 
@@ -15,6 +14,9 @@ Furthermore, the types of remote sensing can be divided into passive and active.
 #### Resolutions of remote sensing data
 The resolutions of remote sensing data can be divided into four types:
 1. Spatial
+2. Spectral
+3. Temporal
+4. Radiometric
 
 
 ## Applications
