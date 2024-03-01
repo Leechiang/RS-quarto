@@ -14,7 +14,7 @@ The types of remote sensing can be divided into passive and active. Passive sens
 There are four categories into which remote sensing data resolutions can be separated: spatial, spectral, temporal, and radiometric. Resolution is a measurement of the amount of information that is present in a particular image. This includes wavelengths, colours, and pixels that are recorded over a given amount of time; taken together, these make up the richness of the data that is captured.      An image provides us with more detailed information and improved visual clarity when it has more pixels, colours, and wavelengths. On the other hand, if these components disappear, the imagery might lose some of its clarity and detail. So, it can be said that resolution is important to the quality of remote sensing data for a range of applications.
 
 ### Practical results
-In the applications part, I will mainly focus on sharing the practical result of first week.In the first week, I learned about how to use SNAP to process Sentinel 2 data. In addition, Cape Town was chosen as the study area. The graph below is the screenshot of the Sentinel data:
+In the first week, I learned about how to use SNAP to process Sentinel 2 and Landsat 8data. In addition, Cape Town was chosen as the study area. The graph below is the screenshot of the Sentinel data:
 ![Sentinel data](屏幕截图 2024-02-15 200519.jpg)
 
 Then, by comparing the band 4 and band 8 of the target area, a spectural feature space can be made:
