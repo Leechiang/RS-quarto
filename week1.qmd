@@ -25,8 +25,11 @@ Then, by comparing the band 4 and band 8 of the target area, a spectural feature
 ![Scatter plot](000010.jpg)
 
 ## Applications
-
+Based on what we did in the practical, there are several researches investigate the comparisons of Landsat 8 and Sentinel-2 data. For example, Sentinel-2 and Landsat 8 data were compared (Heikki Astola et al., 2019) for their ability to predict forest variables in Southern Finland's boreal forest.They discovered that Sentinel-2 data can be used as the primary Earth observation data source for forest resource assessment.
 
 
 
 ## Reflections
+
+## Reference
+Heikki Astola et al. (2019) ‘Comparison of Sentinel-2 and Landsat 8 imagery for forest variable  prediction in boreal region’.

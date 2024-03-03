@@ -53,7 +53,7 @@
     "href": "week1.html#applications",
     "title": "1  Week 1",
     "section": "1.2 Applications",
-    "text": "1.2 Applications"
+    "text": "1.2 Applications\nBased on what we did in the practical, there are several researches investigate the comparisons of Landsat 8 and Sentinel-2 data. For example, Sentinel-2 and Landsat 8 data were compared (Heikki Astola et al., 2019) for their ability to predict forest variables in Southern Finland’s boreal forest.They discovered that Sentinel-2 data can be used as the primary Earth observation data source for forest resource assessment."
   },
   {
     "objectID": "week1.html#reflections",
@@ -117,5 +117,12 @@
     "title": "3  Week 3",
     "section": "3.3 Reflections",
     "text": "3.3 Reflections"
+  },
+  {
+    "objectID": "week1.html#reference",
+    "href": "week1.html#reference",
+    "title": "1  Week 1",
+    "section": "1.4 Reference",
+    "text": "1.4 Reference\nHeikki Astola et al. (2019) ‘Comparison of Sentinel-2 and Landsat 8 imagery for forest variable prediction in boreal region’."
   }
 ]
