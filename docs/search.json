@@ -53,7 +53,7 @@
     "href": "week1.html#applications",
     "title": "1  Week 1",
     "section": "1.2 Applications",
-    "text": "1.2 Applications\nBased on what we did in the practical, there are several researches investigate the comparisons of Landsat 8 and Sentinel-2 data. For example, Sentinel-2 and Landsat 8 data were compared (Heikki Astola et al., 2019) for their ability to predict forest variables in Southern Finland’s boreal forest.They discovered that Sentinel-2 data can be used as the primary Earth observation data source for forest resource assessment."
+    "text": "1.2 Applications\nExtending from the practical part, there are several comparisons of Landsat 8 and Sentinel-2 data. For example, Sentinel-2 has a 5-day revisit period and collects images at a spatial resolution of 10-20m, whereas Landsat 8 can only be revisited once every 16 days and has a spatial scale of 30m.(Bharathi D, R Karthi, and Geetha P, 2023) Furthermore, Sentinel-2 and Landsat 8 data were compared (Heikki Astola et al., 2019) for their ability to predict forest variables in Southern Finland’s boreal forest.They discovered that Sentinel-2 data can be used as the primary Earth observation data source for forest resource assessment."
   },
   {
     "objectID": "week1.html#reflections",
@@ -123,6 +123,6 @@
     "href": "week1.html#reference",
     "title": "1  Week 1",
     "section": "1.4 Reference",
-    "text": "1.4 Reference\nHeikki Astola et al. (2019) ‘Comparison of Sentinel-2 and Landsat 8 imagery for forest variable prediction in boreal region’."
+    "text": "1.4 Reference\nBharathi D, R Karthi, and Geetha P (2023) ‘Blending of Landsat and Sentinel images using Multi-sensor fusion’.\nHeikki Astola et al. (2019) ‘Comparison of Sentinel-2 and Landsat 8 imagery for forest variable prediction in boreal region’."
   }
 ]
