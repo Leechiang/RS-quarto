@@ -102,7 +102,7 @@
     "href": "week3.html#summary",
     "title": "3  Week 3",
     "section": "3.1 Summary",
-    "text": "3.1 Summary\n\n3.1.1 Introduction of remote sensing\nThe first week lecture briefly introduced what remote sensing is and the basic types of it (passive and active)."
+    "text": "3.1 Summary\n\n3.1.1 Correction\nThe correction of remote sensing can be divided into three different type, and this part will be mainly focused on the solutions of these corrections. #### Geometric correction Selecting Ground Control Points (GCPs) from GPS, maps, or other images. Deriving transformation coefficients to correct distortions. Minimizing Root Mean Square Error (RMSE) to ensure accuracy, typically aiming for an RMSE value of 0.5.\n\n3.1.1.1 Atmospheric correction\n\n\n3.1.1.2 Orthorectification correction / topographic correction:"
   },
   {
     "objectID": "week3.html#applications",

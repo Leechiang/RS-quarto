@@ -2,8 +2,16 @@
 
 ## Summary
 
-### Introduction of remote sensing
-The first week lecture briefly introduced what remote sensing is and the basic types of it (passive and active). 
+### Correction
+The correction of remote sensing can be divided into three different type, and this part will be mainly focused on the solutions of these corrections.
+#### Geometric correction
+Selecting Ground Control Points (GCPs) from GPS, maps, or other images.
+Deriving transformation coefficients to correct distortions.
+Minimizing Root Mean Square Error (RMSE) to ensure accuracy, typically aiming for an RMSE value of 0.5.
+
+#### Atmospheric correction
+
+#### Orthorectification correction / topographic correction:
 
 ## Applications
 
