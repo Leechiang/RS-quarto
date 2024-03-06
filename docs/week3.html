@@ -160,6 +160,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">3.1</span> Summary</a>
   <ul class="collapse">
   <li><a href="#correction" id="toc-correction" class="nav-link" data-scroll-target="#correction"><span class="header-section-number">3.1.1</span> Correction</a></li>
+  <li><a href="#enhancement" id="toc-enhancement" class="nav-link" data-scroll-target="#enhancement"><span class="header-section-number">3.1.2</span> Enhancement</a></li>
   </ul></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">3.2</span> Applications</a></li>
   <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">3.3</span> Reflections</a></li>
@@ -190,13 +191,24 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-number="3.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">3.1</span> Summary</h2>
 <section id="correction" class="level3" data-number="3.1.1">
 <h3 data-number="3.1.1" class="anchored" data-anchor-id="correction"><span class="header-section-number">3.1.1</span> Correction</h3>
-<p>The correction of remote sensing can be divided into three different type, and this part will be mainly focused on the solutions of these corrections. #### Geometric correction Selecting Ground Control Points (GCPs) from GPS, maps, or other images. Deriving transformation coefficients to correct distortions. Minimizing Root Mean Square Error (RMSE) to ensure accuracy, typically aiming for an RMSE value of 0.5.</p>
-<section id="atmospheric-correction" class="level4" data-number="3.1.1.1">
-<h4 data-number="3.1.1.1" class="anchored" data-anchor-id="atmospheric-correction"><span class="header-section-number">3.1.1.1</span> Atmospheric correction</h4>
+<p>The correction of remote sensing can be divided into three different type, and this part will be mainly focused on the solutions of these corrections.</p>
+<section id="geometric-correction" class="level4" data-number="3.1.1.1">
+<h4 data-number="3.1.1.1" class="anchored" data-anchor-id="geometric-correction"><span class="header-section-number">3.1.1.1</span> Geometric correction</h4>
+<p>During geometric correction, ground control points (GCPs) are collected from various sources like GPS, maps, images, and handheld devices. These points are then compared to the image and a reference dataset. Geometric transformation coefficients are calculated based on the matched GCP coordinates, defining the transformation to map coordinates from the original image to the reference dataset. These coefficients are applied to the image to minimize root mean square error (RMSE), typically aiming for an RMSE of approximately 0.5 through graph plotting and parameter adjustments. Finally, the raster image is resampled using interpolation methods such as nearest neighbor to ensure pixel alignment and accuracy across images. <img src="Steps-in-geometric-correction-process.jpg" class="img-fluid" alt="Scatter plot"></p>
 </section>
-<section id="orthorectification-correction-topographic-correction" class="level4" data-number="3.1.1.2">
-<h4 data-number="3.1.1.2" class="anchored" data-anchor-id="orthorectification-correction-topographic-correction"><span class="header-section-number">3.1.1.2</span> Orthorectification correction / topographic correction:</h4>
+<section id="atmospheric-correction" class="level4" data-number="3.1.1.2">
+<h4 data-number="3.1.1.2" class="anchored" data-anchor-id="atmospheric-correction"><span class="header-section-number">3.1.1.2</span> Atmospheric correction</h4>
+<p>The atmospheric correction methods aim to reduce atmospheric influences on photographs in order to recover surface features more accurately. They are broadly divided into relative and absolute correction approaches. Empirical Line Correction, a relative approach, uses ground spectral data and linear regression against satellite pictures to estimate surface reflectance. air Radiative Transfer Models, on the other hand, take an absolute approach, using models such as MODTRAN 4+ and 6S to calculate and rectify air interference while accounting for absorption, scattering effects, and path radiance. Another comparable method, Dark Object Subtraction (DOS), involves identifying the image’s darkest pixel values and subtracting them from all pixels to reduce ambient scattering and optical mixing.</p>
 </section>
+<section id="orthorectification-correction-topographic-correction" class="level4" data-number="3.1.1.3">
+<h4 data-number="3.1.1.3" class="anchored" data-anchor-id="orthorectification-correction-topographic-correction"><span class="header-section-number">3.1.1.3</span> Orthorectification correction / topographic correction:</h4>
+</section>
+<section id="practical-result" class="level4" data-number="3.1.1.4">
+<h4 data-number="3.1.1.4" class="anchored" data-anchor-id="practical-result"><span class="header-section-number">3.1.1.4</span> Practical result</h4>
+</section>
+</section>
+<section id="enhancement" class="level3" data-number="3.1.2">
+<h3 data-number="3.1.2" class="anchored" data-anchor-id="enhancement"><span class="header-section-number">3.1.2</span> Enhancement</h3>
 </section>
 </section>
 <section id="applications" class="level2" data-number="3.2">
