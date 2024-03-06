@@ -10,7 +10,6 @@ The correction of remote sensing can be divided into three different type, and t
 #### Geometric correction
 
 During geometric correction, ground control points (GCPs) are collected from various sources like GPS, maps, images, and handheld devices. These points are then compared to the image and a reference dataset. Geometric transformation coefficients are calculated based on the matched GCP coordinates, defining the transformation to map coordinates from the original image to the reference dataset. These coefficients are applied to the image to minimize root mean square error (RMSE), typically aiming for an RMSE of approximately 0.5 through graph plotting and parameter adjustments. Finally, the raster image is resampled using interpolation methods such as nearest neighbor to ensure pixel alignment and accuracy across images. 
-![Scatter plot](Steps-in-geometric-correction-process.jpg)
 
 #### Atmospheric correction
 

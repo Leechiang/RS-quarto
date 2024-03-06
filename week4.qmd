@@ -21,3 +21,5 @@ The suggested data for supervising the greening area in London is that using the
 ## Reflections
 
 As it mentioned in the previous part, the UK participates into the Copernicus plan from 2024. Therefore, the access to previous years data might be a trouble, so it is recommended to access by other ways such as Landsat and Sentinels.
+
+## Reference
