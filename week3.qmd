@@ -20,9 +20,19 @@ Orthorectification correction is a subset of georectification that involves prov
 
 ### Enhancement
 
-#### Practical result
+#### Ratio enhancement
+The figure below shows the ratio enhancement of vegetation with the aid of NDVI index (above 0.2):
+![Scatter plot](wk3.jpg)
 
-### Enhancement
+#### Texture enhancement
+
+![Scatter plot](wk3 texture.jpg)
+Importance of components:
+                          PC1    PC2     PC3     PC4     PC5     PC6     PC7     PC8     PC9
+Standard deviation     2.6803 1.0174 0.69710 0.36726 0.29467 0.22414 0.10929 0.08835 0.05838
+Proportion of Variance 0.7982 0.1150 0.05399 0.01499 0.00965 0.00558 0.00133 0.00087 0.00038
+Cumulative Proportion  0.7982 0.9132 0.96721 0.98220 0.99184 0.99743 0.99875 0.99962 1.00000
+
 
 ## Applications
 
