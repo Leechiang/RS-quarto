@@ -22,12 +22,14 @@ Orthorectification correction is a subset of georectification that involves prov
 
 #### Ratio enhancement
 The figure below shows the ratio enhancement of vegetation with the aid of NDVI index (above 0.2):
-![Scatter plot](wk3.jpg)
+![Ratio enhancement](wk3.jpg)
 Form the graph, it can be viewed that the healthy vegetation in Cape Town is shown as green. And the ocean and other places without healthy vegetation is shown as white. 
 
 #### Texture enhancement
 
-![Scatter plot](wk3 texture.jpg)
+![Texture enhancement](wk3 texture.jpg)
+
+#### PCA
 Importance of components:
                           PC1    PC2     PC3     PC4     PC5     PC6     PC7     PC8     PC9
 Standard deviation     2.6803 1.0174 0.69710 0.36726 0.29467 0.22414 0.10929 0.08835 0.05838
