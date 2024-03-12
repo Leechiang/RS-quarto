@@ -158,7 +158,7 @@
     "href": "week5.html#reflections",
     "title": "5  Week 5 Google Earth Engine",
     "section": "5.3 Reflections",
-    "text": "5.3 Reflections\nThis week I had learnt a lot about what is remote sensing is and what can we do with it. Furthermore, the in the practical part, I had compared the differences of remote sensing data from different satellites (Sentinel and Landsat) with a new software-SNAP. However, I have to say it is quite hard and time-consuming for me to deal with raster data on SNAP especially drawing out the point of interests part. As I mentioned, this field is completely new to me, so I got to spend more time on this module. Hopefully I will get better in couple weeks! And I am very curious how remote sensing can be related to the building energy performance, I hope I can find the answer in the next couple weeks."
+    "text": "5.3 Reflections\nGEE is really a efficient tool! It really take less time when I was doing PCA comparing to previous weeks. However, when I run the code in GEE, it always ran the whole code instead of certain trunk. In addition, as it mentioned in the application parts, the GEE got different kinds of applications but the limitations of GEE is quite severe, too. Therefore, it is quite important for us to choose appropriate tools when doing research. When the research is related to SAR data, GEE might not be applicable."
   },
   {
     "objectID": "week5.html#reference",
