@@ -15,19 +15,9 @@ The types of remote sensing can be divided into passive and active. Passive sens
 ## Applications
 As it mentioned in the lecture, GEE is a powerful research tool which enables us to deal with massive geospatial data without spending a lot of time. Moreover, the applications of GEE varies a lot in different fields. For example, a research (M. Mohammadi and M. Akhoondzadeh, 2023) had used the Google Earth Engine platform to validate NASA's assertion of a methane cloud near Southern Tehran. Through spatiotemporal analysis of daily data from the TROPOMI sensor, it was confirmed that landfills are the dominant source of methane emissions. As a result, the discovery proved the veracity of NASA's report, owing mostly to the presence of a landfill in the vicinity. Therefore, the Google Earth Engine platform emerges as a valuable tool for tracking daily, monthly, and annual differences.
 
-Extending from the practical part, there are several comparisons of Landsat 8 and Sentinel-2 data. For example, Sentinel-2 has a 5-day revisit period and collects images at a spatial resolution of 10-20m, whereas Landsat 8 can only be revisited once every 16 days and has a spatial scale of 30m.(Bharathi D, R Karthi, and Geetha P, 2023) Furthermore, Sentinel-2 and Landsat 8 data were compared (Heikki Astola et al., 2019) for their ability to predict forest variables in Southern Finland's boreal forest.They discovered that Sentinel-2 data can be used as the primary Earth observation data source for forest resource assessment.
-
-
-
 ## Reflections
 This week I had learnt a lot about what is remote sensing is and what can we do with it. Furthermore, the in the practical part, I had compared the differences of remote sensing data from different satellites (Sentinel and Landsat) with a new software-SNAP. However, I have to say it is quite hard and time-consuming for me to deal with raster data on SNAP especially drawing out the point of interests part. As I mentioned, this field is completely new to me, so I got to spend more time on this module. Hopefully I will get better in couple weeks! And I am very curious how remote sensing can be related to the building energy performance, I hope I can find the answer in the next couple weeks.
 
 ## Reference
-Sentinel-2: Satellite imagery, Overview, and characteristics (2024) EOS Data Analytics. Available at: https://eos.com/find-satellite/sentinel-2/ (Accessed: 04 February 2024). 
+M. Mohammadi and M. Akhoondzadeh (2023) ‘Monitoring and detection of methane gas in Tehran in Google Earth Engine’.
 
-Landsat 8 (2023) NASA. Available at: https://landsat.gsfc.nasa.gov/satellites/landsat-8/ (Accessed: 05 February 2024). 
-
-Bharathi D, R Karthi, and Geetha P (2023) ‘Blending of Landsat and Sentinel images using  Multi-sensor fusion’.
-
-
-Heikki Astola et al. (2019) ‘Comparison of Sentinel-2 and Landsat 8 imagery for forest variable  prediction in boreal region’.
