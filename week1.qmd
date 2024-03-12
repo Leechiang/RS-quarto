@@ -16,13 +16,12 @@ There are four categories into which remote sensing data resolutions can be sepa
 ### Practical results
 In the first week, I learned about how to use SNAP to process Sentinel 2 and Landsat 8data. In addition, Cape Town was chosen as the study area. The graph below is the screenshot of the Sentinel data:
 ![Sentinel data](屏幕截图 2024-02-15 200519.jpg)
-
 Then, by comparing the band 4 and band 8 of the target area, a spectural feature space can be made:
 ![Scatter plot](240216.jpg)
+Then we had select points of interest on SNAP for sentinel data. From the density plot below, it can be viewed the band values of each land cover. Moreover, the mean values of each band are plot in the graph with vertical lines:
+![Density plot](00002.jpg)
 
-![Scatter plot](00002.jpg)
-
-![Scatter plot](000010.jpg)
+![Spectral profiles](000010.jpg)
 
 ## Applications
 SENTINEL-2, which launched on June 23, 2015, was specifically designed to deliver a large amount of data and imagery. The satellite has an opto-electronic multispectral sensor for surveying with a sentinel-2 resolution of 10 to 60 m in the visible, near infrared (VNIR), and short-wave infrared (SWIR) spectral zones, including 13 spectral bands, which ensures the capture of differences in vegetation state, including temporal changes, while also minimising the impact on atmospheric photography quality.(Sentinel-2: Satellite imagery, Overview, and characteristics 2024) While Landsat 8 was launched on February 11, 2013.  The Thermal Infrared Sensor (TIRS) and the Operational Land Imager (OLI) are the two scientific instruments that compose up the Landsat 8 satellite payload.   The global landmass is covered seasonally by these two sensors at 30 metres (visible, NIR, and SWIR), 100 metres (thermal), and 15 metres (panchromatic) of spatial resolution. (Landsat 8 2023)
@@ -32,6 +31,7 @@ Extending from the practical part, there are several comparisons of Landsat 8 an
 
 
 ## Reflections
+This week I had learnt a lot about what is remote sensing is and what can we do with it. Furthermore, the in the practical part, I had compared the differences of remote sensing data from different satellites (Sentinel and Landsat) with a new software-SNAP. However, I have to say it is quite hard and time-consuming for me to deal with raster data on SNAP especially drawing out the point of interests part. As I mentioned, this field is completely new to me, so I got to spend more time on this module. Hopefully I will get better in couple weeks! And I am very curious how remote sensing can be related to the building energy performance, I hope I can find the answer in the next couple weeks.
 
 ## Reference
 Sentinel-2: Satellite imagery, Overview, and characteristics (2024) EOS Data Analytics. Available at: https://eos.com/find-satellite/sentinel-2/ (Accessed: 04 February 2024). 
