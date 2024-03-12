@@ -13,7 +13,7 @@ The types of remote sensing can be divided into passive and active. Passive sens
 ![Types](Types of remote sensing.jpg)
 
 ## Applications
-As it mentioned in the lecture, GEE is a powerful research tool which enables us to deal with massive geospatial data without spending a lot of time. Moreover, the applications of GEE varies a lot in different fields. 
+As it mentioned in the lecture, GEE is a powerful research tool which enables us to deal with massive geospatial data without spending a lot of time. Moreover, the applications of GEE varies a lot in different fields.For instance, the graph below categorizes the applications of GEE (Haifa Tamiminia et al., 2020):
 ![Categorization of GEE applications by discipline](Categorization of GEE applications by discipline.jpg)
 For example, a research (M. Mohammadi and M. Akhoondzadeh, 2023) had used the Google Earth Engine platform to validate NASA's assertion of a methane cloud near Southern Tehran. Through spatiotemporal analysis of daily data from the TROPOMI sensor, it was confirmed that landfills are the dominant source of methane emissions. As a result, the discovery proved the veracity of NASA's report, owing mostly to the presence of a landfill in the vicinity. Therefore, the Google Earth Engine platform emerges as a valuable tool for tracking daily, monthly, and annual differences. In addition, Daeng and his colleagues (Daeng Achmad Suaidi et al., 2023) used Google Earth Engine (GEE) to analyse Landsat 8 satellite images, successfully tracking the land surface temperature of the Arjuno-Welirang volcanic complex between 2016 and 2021. The data demonstrated a considerable increase in surface temperature in the crater area in 2018, which coincided with increased seismic activity reported by the Volcanological Survey of Indonesia (VSI). This highlights GEE's ability in accurately tracking volcanic activity with readily available satellite data.
 
@@ -21,6 +21,9 @@ For example, a research (M. Mohammadi and M. Akhoondzadeh, 2023) had used the Go
 This week I had learnt a lot about what is remote sensing is and what can we do with it. Furthermore, the in the practical part, I had compared the differences of remote sensing data from different satellites (Sentinel and Landsat) with a new software-SNAP. However, I have to say it is quite hard and time-consuming for me to deal with raster data on SNAP especially drawing out the point of interests part. As I mentioned, this field is completely new to me, so I got to spend more time on this module. Hopefully I will get better in couple weeks! And I am very curious how remote sensing can be related to the building energy performance, I hope I can find the answer in the next couple weeks.
 
 ## Reference
+Haifa Tamiminia et al. (2020) ‘Google Earth Engine for geo-big data applications: A meta-analysis and systematic review’.
+
+
 M. Mohammadi and M. Akhoondzadeh (2023) ‘Monitoring and detection of methane gas in Tehran in Google Earth Engine’.
 
 Daeng Achmad Suaidi et al. (2023) ‘Evolution of Increased Volcanic Activity in Arjuno-Welirang  Based on LST Analysis of Landsat 8 Satellite Imagery Using  GEE Cloud Computing’.
