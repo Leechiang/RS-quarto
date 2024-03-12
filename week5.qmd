@@ -9,8 +9,9 @@ Google Earth Engine is a useful geographic data processing engine. It makes opti
 In Google Earth Engine (GEE), we may execute geometric operations, dataset joins, zonal statistics, data filtering, apply machine learning and TensorFlow deep learning algorithms, make online visualisations, and create scalable geospatial apps using GEE data.
 
 ### Practical result
-The types of remote sensing can be divided into passive and active. Passive sensors collect radiation emitted or reflected by the object or surrounding areas. Active sensors, on the other hand, emits energy to scan objects and areas, after which a sensor detects and measures the radiation reflected or backscattered by the target.
-![Types](Types of remote sensing.jpg)
+In the practical part, we've chosen Delhi as the study area. Firstly, 
+
+![Practical output](屏幕截图 2024-03-12 121447.jpg)
 
 ## Applications
 As it mentioned in the lecture, GEE is a powerful research tool which enables us to deal with massive geospatial data without spending a lot of time. Moreover, the applications of GEE varies a lot in different fields.For instance, the graph below categorizes the applications of GEE (Haifa Tamiminia et al., 2020):
