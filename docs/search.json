@@ -138,5 +138,33 @@
     "title": "3  Week 3",
     "section": "3.4 Reference",
     "text": "3.4 Reference\nMir Talas Mahammad Diganta, Md Galal Uddin, and Agnieszka I. Olbert (2023) ‘Assessing the atmospheric correction algorithms for improving the retrieval data accuracy in the remote sensing technique’.\nChi Zhang et al. (2023) ‘Thin cloud correction method for visible remote sensing images using a spectral transformation scheme’.\nQi Mao, Jian Peng, and Yanglin Wang (2021) ‘Resolution Enhancement of Remotely Sensed Land Surface Temperature: Current Status and Perspectives’."
+  },
+  {
+    "objectID": "week5.html#summary",
+    "href": "week5.html#summary",
+    "title": "5  Week 5 Google Earth Engine",
+    "section": "5.1 Summary",
+    "text": "5.1 Summary\n\n5.1.1 What is Google Earth Engine\nGoogle Earth Engine is a useful geographic data processing engine. It makes optimal use of server-side processing and distributed computing to let users handle and analyse massive amounts of geographical data. It makes better use of computational resources by processing data using mapping functions rather than loops. Because of this functionality, Google Earth Engine is one of the most popular systems for handling massive amounts of geospatial data.\n\n\n5.1.2 What can we do with GEE\nIn Google Earth Engine (GEE), we may execute geometric operations, dataset joins, zonal statistics, data filtering, apply machine learning and TensorFlow deep learning algorithms, make online visualisations, and create scalable geospatial apps using GEE data.\n\n\n5.1.3 Practical result\nThe types of remote sensing can be divided into passive and active. Passive sensors collect radiation emitted or reflected by the object or surrounding areas. Active sensors, on the other hand, emits energy to scan objects and areas, after which a sensor detects and measures the radiation reflected or backscattered by the target. \n\n\n5.1.4 Resolutions of remote sensing data\nThere are four categories into which remote sensing data resolutions can be separated: spatial, spectral, temporal, and radiometric. Resolution is a measurement of the amount of information that is present in a particular image. This includes wavelengths, colours, and pixels that are recorded over a given amount of time; taken together, these make up the richness of the data that is captured. An image provides us with more detailed information and improved visual clarity when it has more pixels, colours, and wavelengths. On the other hand, if these components disappear, the imagery might lose some of its clarity and detail. So, it can be said that resolution is important to the quality of remote sensing data for a range of applications.\n\n\n5.1.5 Practical results\nIn the first week, I learned about how to use SNAP to process Sentinel 2 and Landsat 8data. In addition, Cape Town was chosen as the study area. The graph below is the screenshot of the Sentinel data:  Then, by comparing the band 4 and band 8 of the target area, a spectural feature space can be made:  Then we had select points of interest on SNAP for sentinel data. From the density plot below, it can be viewed the band values of each land cover. Moreover, the mean values of each band are plot in the graph with vertical lines: \n\n\n\nSpectral profiles"
+  },
+  {
+    "objectID": "week5.html#applications",
+    "href": "week5.html#applications",
+    "title": "5  Week 5 Google Earth Engine",
+    "section": "5.2 Applications",
+    "text": "5.2 Applications\nSENTINEL-2, which launched on June 23, 2015, was specifically designed to deliver a large amount of data and imagery. The satellite has an opto-electronic multispectral sensor for surveying with a sentinel-2 resolution of 10 to 60 m in the visible, near infrared (VNIR), and short-wave infrared (SWIR) spectral zones, including 13 spectral bands, which ensures the capture of differences in vegetation state, including temporal changes, while also minimising the impact on atmospheric photography quality.(Sentinel-2: Satellite imagery, Overview, and characteristics 2024) While Landsat 8 was launched on February 11, 2013. The Thermal Infrared Sensor (TIRS) and the Operational Land Imager (OLI) are the two scientific instruments that compose up the Landsat 8 satellite payload. The global landmass is covered seasonally by these two sensors at 30 metres (visible, NIR, and SWIR), 100 metres (thermal), and 15 metres (panchromatic) of spatial resolution. (Landsat 8 2023)\nExtending from the practical part, there are several comparisons of Landsat 8 and Sentinel-2 data. For example, Sentinel-2 has a 5-day revisit period and collects images at a spatial resolution of 10-20m, whereas Landsat 8 can only be revisited once every 16 days and has a spatial scale of 30m.(Bharathi D, R Karthi, and Geetha P, 2023) Furthermore, Sentinel-2 and Landsat 8 data were compared (Heikki Astola et al., 2019) for their ability to predict forest variables in Southern Finland’s boreal forest.They discovered that Sentinel-2 data can be used as the primary Earth observation data source for forest resource assessment."
+  },
+  {
+    "objectID": "week5.html#reflections",
+    "href": "week5.html#reflections",
+    "title": "5  Week 5 Google Earth Engine",
+    "section": "5.3 Reflections",
+    "text": "5.3 Reflections\nThis week I had learnt a lot about what is remote sensing is and what can we do with it. Furthermore, the in the practical part, I had compared the differences of remote sensing data from different satellites (Sentinel and Landsat) with a new software-SNAP. However, I have to say it is quite hard and time-consuming for me to deal with raster data on SNAP especially drawing out the point of interests part. As I mentioned, this field is completely new to me, so I got to spend more time on this module. Hopefully I will get better in couple weeks! And I am very curious how remote sensing can be related to the building energy performance, I hope I can find the answer in the next couple weeks."
+  },
+  {
+    "objectID": "week5.html#reference",
+    "href": "week5.html#reference",
+    "title": "5  Week 5 Google Earth Engine",
+    "section": "5.4 Reference",
+    "text": "5.4 Reference\nSentinel-2: Satellite imagery, Overview, and characteristics (2024) EOS Data Analytics. Available at: https://eos.com/find-satellite/sentinel-2/ (Accessed: 04 February 2024).\nLandsat 8 (2023) NASA. Available at: https://landsat.gsfc.nasa.gov/satellites/landsat-8/ (Accessed: 05 February 2024).\nBharathi D, R Karthi, and Geetha P (2023) ‘Blending of Landsat and Sentinel images using Multi-sensor fusion’.\nHeikki Astola et al. (2019) ‘Comparison of Sentinel-2 and Landsat 8 imagery for forest variable prediction in boreal region’."
   }
 ]
