@@ -9,7 +9,15 @@ Google Earth Engine is a useful geographic data processing engine. It makes opti
 In Google Earth Engine (GEE), we may execute geometric operations, dataset joins, zonal statistics, data filtering, apply machine learning and TensorFlow deep learning algorithms, make online visualisations, and create scalable geospatial apps using GEE data.
 
 ### Practical result
-In the practical part, we've chosen Delhi as the study area. Firstly, we loaded the Landsat-9 data into GEE. Next, we downloaded the shape files of Delhi from GADM
+In the practical part, we've chosen Delhi as the study area. We loaded the Landsat-9 data of Delhi into GEE. Furthermore, we've done several outputs such as PCA, NDVI and gclm which we've done in the previous practical. It is no doubt that the operation time in GEE is much shorter then we had with R. Moreover, it is more convenient to select the output layer with GEE.
+
+#### NDVI
+Comparing with the NDVI which produced with R, the quality of the one from GEE is higher:
+
+![NDVI output](Delhi NDVI.jpg)
+
+
+#### PCA
 
 ![PCA output](屏幕截图 2024-03-12 121447.jpg)
 
@@ -17,8 +25,6 @@ In the practical part, we've chosen Delhi as the study area. Firstly, we loaded 
 As it mentioned in the lecture, GEE is a powerful research tool which enables us to deal with massive geospatial data without spending a lot of time. Moreover, the applications of GEE varies a lot in different fields.For instance, the graph below categorizes the applications of GEE (Haifa Tamiminia et al., 2020):
 ![Categorization of GEE applications by discipline](Categorization of GEE applications by discipline.jpg)
 For example, a research (M. Mohammadi and M. Akhoondzadeh, 2023) had used the Google Earth Engine platform to validate NASA's assertion of a methane cloud near Southern Tehran. Through spatiotemporal analysis of daily data from the TROPOMI sensor, it was confirmed that landfills are the dominant source of methane emissions. As a result, the discovery proved the veracity of NASA's report, owing mostly to the presence of a landfill in the vicinity. Therefore, the Google Earth Engine platform emerges as a valuable tool for tracking daily, monthly, and annual differences. In addition, Daeng and his colleagues (Daeng Achmad Suaidi et al., 2023) used Google Earth Engine (GEE) to analyse Landsat 8 satellite images, successfully tracking the land surface temperature of the Arjuno-Welirang volcanic complex between 2016 and 2021. The data demonstrated a considerable increase in surface temperature in the crater area in 2018, which coincided with increased seismic activity reported by the Volcanological Survey of Indonesia (VSI). This highlights GEE's ability in accurately tracking volcanic activity with readily available satellite data.
-
-Although GEE is a sufficient tool in the field of remote sensing, there are several limitations of it. For example, SAR data and high-resolution data are not supported.
 
 ## Reflections
 GEE is really a efficient tool! It really take less time when I was doing PCA comparing to previous weeks. However, when I run the code in GEE, it always ran the whole code instead of certain trunk. In addition, as it mentioned in the application parts, the GEE got different kinds of applications but the limitations of GEE is quite severe, too. Therefore, it is quite important for us to choose appropriate tools when doing research. When the research is related to SAR data, GEE might not be applicable.
