@@ -9,7 +9,7 @@
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "2  Introduction",
+    "title": "7  Introduction",
     "section": "",
     "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   },
@@ -81,7 +81,7 @@
     "href": "week4.html#summary",
     "title": "4  Week 4",
     "section": "4.1 Summary",
-    "text": "4.1 Summary\n\n4.1.1 The London Plan 2021\nThe Greater London Authority publishes the London Plan, which is the statutory spatial development strategy for the Greater London area in the United Kingdom, and is authored by the Mayor of London. It is periodically updated. The Greater London Authority approved a new London Plan in March 2021 that includes planning for the ensuing 20 to 25 years. Moreover, in the London Plan 2021, there is a Policy G5 Urban greening section which aims to increase the greening coverage in London urban areas. Urban greening includes a variety of options such as street trees, green roofs, green walls, and rain gardens. It can help meet other policy requirements while also providing a variety of benefits such as amenity space, increased biodiversity, mitigation of the urban heat island effect, sustainable drainage, and amenity.\nThe graph below is an example of urban greening (Green wall): \nIn order to promote greater and better urban greening, several cities have effectively implemented the “green space factor.”(UGF) The Mayor created a generic Urban Greening Factor model to help boroughs and developers determine the appropriate level of urban greening for new developments.\nThe table below shows some of the factors used to calculate the UGF: \nFor instance, by using the factors above, the UGF can be calculated by: (Factor A x Area) + (Factor B x Area) + (Factor C x Area) etc. divided by Total Site Area. The Mayor recommends a target score of 0.4 for residential developments and 0.3 for commercial development."
+    "text": "4.1 Summary\n\n4.1.1 The London Plan 2021\nThe Greater London Authority publishes the London Plan, which is the statutory spatial development strategy for the Greater London area in the United Kingdom, and is authored by the Mayor of London. It is periodically updated. The Greater London Authority approved a new London Plan in March 2021 that includes planning for the ensuing 20 to 25 years. Moreover, in the London Plan 2021, there is a Policy G5 Urban greening section which aims to increase the greening coverage in London urban areas. Urban greening includes a variety of options such as street trees, green roofs, green walls, and rain gardens. It can help meet other policy requirements while also providing a variety of benefits such as amenity space, increased biodiversity, mitigation of the urban heat island effect, sustainable drainage, and amenity.\nThe graph below is an example of urban greening (Green wall):\n\n\n\nAn example of Green Wall\n\n\nIn order to promote greater and better urban greening, several cities have effectively implemented the “green space factor.”(UGF) The Mayor created a generic Urban Greening Factor model to help boroughs and developers determine the appropriate level of urban greening for new developments.\nThe table below shows some of the factors used to calculate the UGF:\n\n\n\nUGF factors\n\n\nFor instance, by using the factors above, the UGF can be calculated by: (Factor A x Area) + (Factor B x Area) + (Factor C x Area) etc. divided by Total Site Area. The Mayor recommends a target score of 0.4 for residential developments and 0.3 for commercial development."
   },
   {
     "objectID": "week4.html#applications",
@@ -166,5 +166,33 @@
     "title": "5  Week 5 Google Earth Engine",
     "section": "5.4 Reference",
     "text": "5.4 Reference\nHaifa Tamiminia et al. (2020) ‘Google Earth Engine for geo-big data applications: A meta-analysis and systematic review’.\nM. Mohammadi and M. Akhoondzadeh (2023) ‘Monitoring and detection of methane gas in Tehran in Google Earth Engine’.\nDaeng Achmad Suaidi et al. (2023) ‘Evolution of Increased Volcanic Activity in Arjuno-Welirang Based on LST Analysis of Landsat 8 Satellite Imagery Using GEE Cloud Computing’."
+  },
+  {
+    "objectID": "week6.html#summary",
+    "href": "week6.html#summary",
+    "title": "6  Week 6 Classification I",
+    "section": "6.1 Summary",
+    "text": "6.1 Summary\n\n6.1.1 Classification and regression trees (CART)\nCART (Classification and Regression Trees) is a decision tree approach for solving classification and regression issues. To construct the tree, the data is recursively divided into smaller subsets and simple models are built on each. Each node in the tree represents a characteristic, each branch represents a potential value for that feature, and the leaf nodes include either categories (for classification problems) or numerical values (for regression problems).\n\n6.1.1.1 Classification tree\nClassification trees partition the dataset recursively using predictor variables to maximise the purity of the resulting subsets, utilising impurity measurements such as Gini impurity. Unlike regression trees, they use impurity measures to identify optimal splits. Gini impurity evaluates the likelihood of misclassifying a randomly chosen sample if labelled according to the class distribution in a subset. The splitting criterion chooses the predictor variable and split point with the lowest Gini impurity in the resulting subsets. This recursive operation continues until the halting criteria are met, yielding a tree structure with each leaf node representing a class label.\n\n\n\nNDVI output\n\n\n\n\n6.1.1.2 Regression tree\n\n\n\n6.1.2 Practical result\n\n\n\nNDVI output"
+  },
+  {
+    "objectID": "week6.html#applications",
+    "href": "week6.html#applications",
+    "title": "6  Week 6 Classification I",
+    "section": "6.2 Applications",
+    "text": "6.2 Applications\nAs it mentioned in the lecture, GEE is a powerful research tool which enables us to deal with massive geospatial data without spending a lot of time. Moreover, the applications of GEE varies a lot in different fields.For instance, the graph below categorizes the applications of GEE (Haifa Tamiminia et al., 2020):  For example, a research (M. Mohammadi and M. Akhoondzadeh, 2023) had used the Google Earth Engine platform to validate NASA’s assertion of a methane cloud near Southern Tehran. Through spatiotemporal analysis of daily data from the TROPOMI sensor, it was confirmed that landfills are the dominant source of methane emissions. As a result, the discovery proved the veracity of NASA’s report, owing mostly to the presence of a landfill in the vicinity. Therefore, the Google Earth Engine platform emerges as a valuable tool for tracking daily, monthly, and annual differences. In addition, Daeng and his colleagues (Daeng Achmad Suaidi et al., 2023) used Google Earth Engine (GEE) to analyse Landsat 8 satellite images, successfully tracking the land surface temperature of the Arjuno-Welirang volcanic complex between 2016 and 2021. The data demonstrated a considerable increase in surface temperature in the crater area in 2018, which coincided with increased seismic activity reported by the Volcanological Survey of Indonesia (VSI). This highlights GEE’s ability in accurately tracking volcanic activity with readily available satellite data."
+  },
+  {
+    "objectID": "week6.html#reflections",
+    "href": "week6.html#reflections",
+    "title": "6  Week 6 Classification I",
+    "section": "6.3 Reflections",
+    "text": "6.3 Reflections\nGEE is really a efficient tool! It really take less time when I was doing PCA comparing to previous weeks. However, when I run the code in GEE, it always ran the whole code instead of certain trunk. In addition, as it mentioned in the application parts, the GEE got different kinds of applications but the limitations of GEE is quite severe, too. Therefore, it is quite important for us to choose appropriate tools when doing research. When the research is related to SAR data, GEE might not be applicable."
+  },
+  {
+    "objectID": "week6.html#reference",
+    "href": "week6.html#reference",
+    "title": "6  Week 6 Classification I",
+    "section": "6.4 Reference",
+    "text": "6.4 Reference\nHaifa Tamiminia et al. (2020) ‘Google Earth Engine for geo-big data applications: A meta-analysis and systematic review’.\nM. Mohammadi and M. Akhoondzadeh (2023) ‘Monitoring and detection of methane gas in Tehran in Google Earth Engine’.\nDaeng Achmad Suaidi et al. (2023) ‘Evolution of Increased Volcanic Activity in Arjuno-Welirang Based on LST Analysis of Landsat 8 Satellite Imagery Using GEE Cloud Computing’."
   }
 ]

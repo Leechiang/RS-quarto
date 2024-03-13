@@ -3,22 +3,18 @@
 ## Summary
 
 ### Classification and regression trees (CART)
+CART (Classification and Regression Trees) is a decision tree approach for solving classification and regression issues. To construct the tree, the data is recursively divided into smaller subsets and simple models are built on each. Each node in the tree represents a characteristic, each branch represents a potential value for that feature, and the leaf nodes include either categories (for classification problems) or numerical values (for regression problems).
 
-### What can we do with GEE
-In Google Earth Engine (GEE), we may execute geometric operations, dataset joins, zonal statistics, data filtering, apply machine learning and TensorFlow deep learning algorithms, make online visualisations, and create scalable geospatial apps using GEE data.
-
-### Practical result
-In the practical part, we've chosen Delhi as the study area. We loaded the Landsat-9 data of Delhi into GEE. Furthermore, we've done several outputs such as PCA, NDVI and gclm which we've done in the previous practical. It is no doubt that the operation time in GEE is much shorter then we had with R. Moreover, it is more convenient to select the output layer with GEE.
-
-#### NDVI
-Comparing with the NDVI which produced with R, the quality of the one from GEE is higher:
+#### Classification tree
+Classification trees partition the dataset recursively using predictor variables to maximise the purity of the resulting subsets, utilising impurity measurements such as Gini impurity. Unlike regression trees, they use impurity measures to identify optimal splits. Gini impurity evaluates the likelihood of misclassifying a randomly chosen sample if labelled according to the class distribution in a subset. The splitting criterion chooses the predictor variable and split point with the lowest Gini impurity in the resulting subsets. This recursive operation continues until the halting criteria are met, yielding a tree structure with each leaf node representing a class label.
 
 ![NDVI output](Delhi NDVI.jpg)
 
+#### Regression tree
 
-#### PCA
+### Practical result
 
-![PCA output](屏幕截图 2024-03-12 121447.jpg)
+![NDVI output](img/屏幕截图 2024-03-13 175926.jpg)
 
 ## Applications
 As it mentioned in the lecture, GEE is a powerful research tool which enables us to deal with massive geospatial data without spending a lot of time. Moreover, the applications of GEE varies a lot in different fields.For instance, the graph below categorizes the applications of GEE (Haifa Tamiminia et al., 2020):

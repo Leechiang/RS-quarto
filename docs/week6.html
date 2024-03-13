@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Leequarto - 1&nbsp; Week 1</title>
+<title>Leequarto - 6&nbsp; Week 6 Classification I</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./week2.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./intro.html" rel="next">
+<link href="./week5.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week1.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1</span></a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./week6.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 6 Classification I</span></a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -107,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week1.html" class="sidebar-item-text sidebar-link active">
+  <a href="./week1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1</span></span></a>
   </div>
 </li>
@@ -137,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week6.html" class="sidebar-item-text sidebar-link">
+  <a href="./week6.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 6 Classification I</span></span></a>
   </div>
 </li>
@@ -169,16 +169,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">1.1</span> Summary</a>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">6.1</span> Summary</a>
   <ul class="collapse">
-  <li><a href="#introducing-remote-sensing" id="toc-introducing-remote-sensing" class="nav-link" data-scroll-target="#introducing-remote-sensing"><span class="header-section-number">1.1.1</span> Introducing remote sensing</a></li>
-  <li><a href="#types-of-remote-sensing" id="toc-types-of-remote-sensing" class="nav-link" data-scroll-target="#types-of-remote-sensing"><span class="header-section-number">1.1.2</span> Types of remote sensing</a></li>
-  <li><a href="#resolutions-of-remote-sensing-data" id="toc-resolutions-of-remote-sensing-data" class="nav-link" data-scroll-target="#resolutions-of-remote-sensing-data"><span class="header-section-number">1.1.3</span> Resolutions of remote sensing data</a></li>
-  <li><a href="#practical-results" id="toc-practical-results" class="nav-link" data-scroll-target="#practical-results"><span class="header-section-number">1.1.4</span> Practical results</a></li>
+  <li><a href="#classification-and-regression-trees-cart" id="toc-classification-and-regression-trees-cart" class="nav-link" data-scroll-target="#classification-and-regression-trees-cart"><span class="header-section-number">6.1.1</span> Classification and regression trees (CART)</a></li>
+  <li><a href="#practical-result" id="toc-practical-result" class="nav-link" data-scroll-target="#practical-result"><span class="header-section-number">6.1.2</span> Practical result</a></li>
   </ul></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">1.2</span> Applications</a></li>
-  <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">1.3</span> Reflections</a></li>
-  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference"><span class="header-section-number">1.4</span> Reference</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">6.2</span> Applications</a></li>
+  <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">6.3</span> Reflections</a></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference"><span class="header-section-number">6.4</span> Reference</a></li>
   </ul>
 </nav>
     </div>
@@ -187,7 +185,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Week 1</span></h1>
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Week 6 Classification I</span></h1>
 </div>
 
 
@@ -202,52 +200,48 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="summary" class="level2" data-number="1.1">
-<h2 data-number="1.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">1.1</span> Summary</h2>
-<section id="introducing-remote-sensing" class="level3" data-number="1.1.1">
-<h3 data-number="1.1.1" class="anchored" data-anchor-id="introducing-remote-sensing"><span class="header-section-number">1.1.1</span> Introducing remote sensing</h3>
-<p>Remote sensing unlike on-site observation, it involves gathering data about an object or phenomenon without coming into direct contact with it.</p>
+<section id="summary" class="level2" data-number="6.1">
+<h2 data-number="6.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">6.1</span> Summary</h2>
+<section id="classification-and-regression-trees-cart" class="level3" data-number="6.1.1">
+<h3 data-number="6.1.1" class="anchored" data-anchor-id="classification-and-regression-trees-cart"><span class="header-section-number">6.1.1</span> Classification and regression trees (CART)</h3>
+<p>CART (Classification and Regression Trees) is a decision tree approach for solving classification and regression issues. To construct the tree, the data is recursively divided into smaller subsets and simple models are built on each. Each node in the tree represents a characteristic, each branch represents a potential value for that feature, and the leaf nodes include either categories (for classification problems) or numerical values (for regression problems).</p>
+<section id="classification-tree" class="level4" data-number="6.1.1.1">
+<h4 data-number="6.1.1.1" class="anchored" data-anchor-id="classification-tree"><span class="header-section-number">6.1.1.1</span> Classification tree</h4>
+<p>Classification trees partition the dataset recursively using predictor variables to maximise the purity of the resulting subsets, utilising impurity measurements such as Gini impurity. Unlike regression trees, they use impurity measures to identify optimal splits. Gini impurity evaluates the likelihood of misclassifying a randomly chosen sample if labelled according to the class distribution in a subset. The splitting criterion chooses the predictor variable and split point with the lowest Gini impurity in the resulting subsets. This recursive operation continues until the halting criteria are met, yielding a tree structure with each leaf node representing a class label.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/Remote-Sensing-Process.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Remote sensing</figcaption>
+<p><img src="Delhi NDVI.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">NDVI output</figcaption>
 </figure>
 </div>
 </section>
-<section id="types-of-remote-sensing" class="level3" data-number="1.1.2">
-<h3 data-number="1.1.2" class="anchored" data-anchor-id="types-of-remote-sensing"><span class="header-section-number">1.1.2</span> Types of remote sensing</h3>
-<p>The types of remote sensing can be divided into passive and active. Passive sensors collect radiation emitted or reflected by the object or surrounding areas. Active sensors, on the other hand, emits energy to scan objects and areas, after which a sensor detects and measures the radiation reflected or backscattered by the target. <img src="img/Types of remote sensing.jpg" class="img-fluid" alt="Types"></p>
+<section id="regression-tree" class="level4" data-number="6.1.1.2">
+<h4 data-number="6.1.1.2" class="anchored" data-anchor-id="regression-tree"><span class="header-section-number">6.1.1.2</span> Regression tree</h4>
 </section>
-<section id="resolutions-of-remote-sensing-data" class="level3" data-number="1.1.3">
-<h3 data-number="1.1.3" class="anchored" data-anchor-id="resolutions-of-remote-sensing-data"><span class="header-section-number">1.1.3</span> Resolutions of remote sensing data</h3>
-<p>There are four categories into which remote sensing data resolutions can be separated: spatial, spectral, temporal, and radiometric. Resolution is a measurement of the amount of information that is present in a particular image. This includes wavelengths, colours, and pixels that are recorded over a given amount of time; taken together, these make up the richness of the data that is captured. An image provides us with more detailed information and improved visual clarity when it has more pixels, colours, and wavelengths. On the other hand, if these components disappear, the imagery might lose some of its clarity and detail. So, it can be said that resolution is important to the quality of remote sensing data for a range of applications.</p>
 </section>
-<section id="practical-results" class="level3" data-number="1.1.4">
-<h3 data-number="1.1.4" class="anchored" data-anchor-id="practical-results"><span class="header-section-number">1.1.4</span> Practical results</h3>
-<p>In the first week, I learned about how to use SNAP to process Sentinel 2 and Landsat 8data. In addition, Cape Town was chosen as the study area. The graph below is the screenshot of the Sentinel data: <img src="img/屏幕截图 2024-02-15 200519.jpg" class="img-fluid" alt="Sentinel data"> Then, by comparing the band 4 and band 8 of the target area, a spectural feature space can be made: <img src="img/240216.jpg" class="img-fluid" alt="Scatter plot"> Then we had select points of interest on SNAP for sentinel data. From the density plot below, it can be viewed the band values of each land cover. Moreover, the mean values of each band are plot in the graph with vertical lines: <img src="img/00002.jpg" class="img-fluid" alt="Density plot"></p>
+<section id="practical-result" class="level3" data-number="6.1.2">
+<h3 data-number="6.1.2" class="anchored" data-anchor-id="practical-result"><span class="header-section-number">6.1.2</span> Practical result</h3>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="img/000010.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Spectral profiles</figcaption>
+<p><img src="img/屏幕截图 2024-03-13 175926.jpg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">NDVI output</figcaption>
 </figure>
 </div>
 </section>
 </section>
-<section id="applications" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">1.2</span> Applications</h2>
-<p>SENTINEL-2, which launched on June 23, 2015, was specifically designed to deliver a large amount of data and imagery. The satellite has an opto-electronic multispectral sensor for surveying with a sentinel-2 resolution of 10 to 60 m in the visible, near infrared (VNIR), and short-wave infrared (SWIR) spectral zones, including 13 spectral bands, which ensures the capture of differences in vegetation state, including temporal changes, while also minimising the impact on atmospheric photography quality.(Sentinel-2: Satellite imagery, Overview, and characteristics 2024) While Landsat 8 was launched on February 11, 2013. The Thermal Infrared Sensor (TIRS) and the Operational Land Imager (OLI) are the two scientific instruments that compose up the Landsat 8 satellite payload. The global landmass is covered seasonally by these two sensors at 30 metres (visible, NIR, and SWIR), 100 metres (thermal), and 15 metres (panchromatic) of spatial resolution. (Landsat 8 2023)</p>
-<p>Extending from the practical part, there are several comparisons of Landsat 8 and Sentinel-2 data. For example, Sentinel-2 has a 5-day revisit period and collects images at a spatial resolution of 10-20m, whereas Landsat 8 can only be revisited once every 16 days and has a spatial scale of 30m.(Bharathi D, R Karthi, and Geetha P, 2023) Furthermore, Sentinel-2 and Landsat 8 data were compared (Heikki Astola et al., 2019) for their ability to predict forest variables in Southern Finland’s boreal forest.They discovered that Sentinel-2 data can be used as the primary Earth observation data source for forest resource assessment.</p>
+<section id="applications" class="level2" data-number="6.2">
+<h2 data-number="6.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">6.2</span> Applications</h2>
+<p>As it mentioned in the lecture, GEE is a powerful research tool which enables us to deal with massive geospatial data without spending a lot of time. Moreover, the applications of GEE varies a lot in different fields.For instance, the graph below categorizes the applications of GEE (Haifa Tamiminia et al., 2020): <img src="Categorization of GEE applications by discipline.jpg" class="img-fluid" alt="Categorization of GEE applications by discipline"> For example, a research (M. Mohammadi and M. Akhoondzadeh, 2023) had used the Google Earth Engine platform to validate NASA’s assertion of a methane cloud near Southern Tehran. Through spatiotemporal analysis of daily data from the TROPOMI sensor, it was confirmed that landfills are the dominant source of methane emissions. As a result, the discovery proved the veracity of NASA’s report, owing mostly to the presence of a landfill in the vicinity. Therefore, the Google Earth Engine platform emerges as a valuable tool for tracking daily, monthly, and annual differences. In addition, Daeng and his colleagues (Daeng Achmad Suaidi et al., 2023) used Google Earth Engine (GEE) to analyse Landsat 8 satellite images, successfully tracking the land surface temperature of the Arjuno-Welirang volcanic complex between 2016 and 2021. The data demonstrated a considerable increase in surface temperature in the crater area in 2018, which coincided with increased seismic activity reported by the Volcanological Survey of Indonesia (VSI). This highlights GEE’s ability in accurately tracking volcanic activity with readily available satellite data.</p>
 </section>
-<section id="reflections" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">1.3</span> Reflections</h2>
-<p>This week I had learnt a lot about what is remote sensing is and what can we do with it. Furthermore, the in the practical part, I had compared the differences of remote sensing data from different satellites (Sentinel and Landsat) with a new software-SNAP. However, I have to say it is quite hard and time-consuming for me to deal with raster data on SNAP especially drawing out the point of interests part. As I mentioned, this field is completely new to me, so I got to spend more time on this module. Hopefully I will get better in couple weeks! And I am very curious how remote sensing can be related to the building energy performance, I hope I can find the answer in the next couple weeks.</p>
+<section id="reflections" class="level2" data-number="6.3">
+<h2 data-number="6.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">6.3</span> Reflections</h2>
+<p>GEE is really a efficient tool! It really take less time when I was doing PCA comparing to previous weeks. However, when I run the code in GEE, it always ran the whole code instead of certain trunk. In addition, as it mentioned in the application parts, the GEE got different kinds of applications but the limitations of GEE is quite severe, too. Therefore, it is quite important for us to choose appropriate tools when doing research. When the research is related to SAR data, GEE might not be applicable.</p>
 </section>
-<section id="reference" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="reference"><span class="header-section-number">1.4</span> Reference</h2>
-<p>Sentinel-2: Satellite imagery, Overview, and characteristics (2024) EOS Data Analytics. Available at: https://eos.com/find-satellite/sentinel-2/ (Accessed: 04 February 2024).</p>
-<p>Landsat 8 (2023) NASA. Available at: https://landsat.gsfc.nasa.gov/satellites/landsat-8/ (Accessed: 05 February 2024).</p>
-<p>Bharathi D, R Karthi, and Geetha P (2023) ‘Blending of Landsat and Sentinel images using Multi-sensor fusion’.</p>
-<p>Heikki Astola et al.&nbsp;(2019) ‘Comparison of Sentinel-2 and Landsat 8 imagery for forest variable prediction in boreal region’.</p>
+<section id="reference" class="level2" data-number="6.4">
+<h2 data-number="6.4" class="anchored" data-anchor-id="reference"><span class="header-section-number">6.4</span> Reference</h2>
+<p>Haifa Tamiminia et al.&nbsp;(2020) ‘Google Earth Engine for geo-big data applications: A meta-analysis and systematic review’.</p>
+<p>M. Mohammadi and M. Akhoondzadeh (2023) ‘Monitoring and detection of methane gas in Tehran in Google Earth Engine’.</p>
+<p>Daeng Achmad Suaidi et al.&nbsp;(2023) ‘Evolution of Increased Volcanic Activity in Arjuno-Welirang Based on LST Analysis of Landsat 8 Satellite Imagery Using GEE Cloud Computing’.</p>
 
 
 </section>
@@ -488,13 +482,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">About me</span>
+      <a href="./week5.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Week 5 Google Earth Engine</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./week2.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Week 2</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./intro.html" class="pagination-link">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
