@@ -208,12 +208,6 @@ ul.task-list li input[type="checkbox"] {
 <section id="classification-tree" class="level4" data-number="6.1.1.1">
 <h4 data-number="6.1.1.1" class="anchored" data-anchor-id="classification-tree"><span class="header-section-number">6.1.1.1</span> Classification tree</h4>
 <p>Classification trees partition the dataset recursively using predictor variables to maximise the purity of the resulting subsets, utilising impurity measurements such as Gini impurity. Unlike regression trees, they use impurity measures to identify optimal splits. Gini impurity evaluates the likelihood of misclassifying a randomly chosen sample if labelled according to the class distribution in a subset. The splitting criterion chooses the predictor variable and split point with the lowest Gini impurity in the resulting subsets. This recursive operation continues until the halting criteria are met, yielding a tree structure with each leaf node representing a class label.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="Delhi NDVI.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">NDVI output</figcaption>
-</figure>
-</div>
 </section>
 <section id="regression-tree" class="level4" data-number="6.1.1.2">
 <h4 data-number="6.1.1.2" class="anchored" data-anchor-id="regression-tree"><span class="header-section-number">6.1.1.2</span> Regression tree</h4>
@@ -221,27 +215,23 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="practical-result" class="level3" data-number="6.1.2">
 <h3 data-number="6.1.2" class="anchored" data-anchor-id="practical-result"><span class="header-section-number">6.1.2</span> Practical result</h3>
+<p>In the practical part, we’ve use two train test (Random forest). However, the different between them is that the first one is done by ploygons while the other one is done by using pixels. By comparing the result, the one used polygons is with plenty of errors and the accuracy of the model is unacceptable. <img src="img/屏幕截图 2024-03-13 191356.jpg" class="img-fluid" alt="RF polygon"> In contrast, the result by using pixels is more acceptable and reasonable. But the results shows that the accuracy of the model is about 100% which is not as expected. It can be known that overfitting might be occur during RF pixel.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/屏幕截图 2024-03-13 175926.jpg" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">NDVI output</figcaption>
+<figcaption class="figure-caption">RF pixel</figcaption>
 </figure>
 </div>
 </section>
 </section>
 <section id="applications" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">6.2</span> Applications</h2>
-<p>As it mentioned in the lecture, GEE is a powerful research tool which enables us to deal with massive geospatial data without spending a lot of time. Moreover, the applications of GEE varies a lot in different fields.For instance, the graph below categorizes the applications of GEE (Haifa Tamiminia et al., 2020): <img src="Categorization of GEE applications by discipline.jpg" class="img-fluid" alt="Categorization of GEE applications by discipline"> For example, a research (M. Mohammadi and M. Akhoondzadeh, 2023) had used the Google Earth Engine platform to validate NASA’s assertion of a methane cloud near Southern Tehran. Through spatiotemporal analysis of daily data from the TROPOMI sensor, it was confirmed that landfills are the dominant source of methane emissions. As a result, the discovery proved the veracity of NASA’s report, owing mostly to the presence of a landfill in the vicinity. Therefore, the Google Earth Engine platform emerges as a valuable tool for tracking daily, monthly, and annual differences. In addition, Daeng and his colleagues (Daeng Achmad Suaidi et al., 2023) used Google Earth Engine (GEE) to analyse Landsat 8 satellite images, successfully tracking the land surface temperature of the Arjuno-Welirang volcanic complex between 2016 and 2021. The data demonstrated a considerable increase in surface temperature in the crater area in 2018, which coincided with increased seismic activity reported by the Volcanological Survey of Indonesia (VSI). This highlights GEE’s ability in accurately tracking volcanic activity with readily available satellite data.</p>
 </section>
 <section id="reflections" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">6.3</span> Reflections</h2>
-<p>GEE is really a efficient tool! It really take less time when I was doing PCA comparing to previous weeks. However, when I run the code in GEE, it always ran the whole code instead of certain trunk. In addition, as it mentioned in the application parts, the GEE got different kinds of applications but the limitations of GEE is quite severe, too. Therefore, it is quite important for us to choose appropriate tools when doing research. When the research is related to SAR data, GEE might not be applicable.</p>
 </section>
 <section id="reference" class="level2" data-number="6.4">
 <h2 data-number="6.4" class="anchored" data-anchor-id="reference"><span class="header-section-number">6.4</span> Reference</h2>
-<p>Haifa Tamiminia et al.&nbsp;(2020) ‘Google Earth Engine for geo-big data applications: A meta-analysis and systematic review’.</p>
-<p>M. Mohammadi and M. Akhoondzadeh (2023) ‘Monitoring and detection of methane gas in Tehran in Google Earth Engine’.</p>
-<p>Daeng Achmad Suaidi et al.&nbsp;(2023) ‘Evolution of Increased Volcanic Activity in Arjuno-Welirang Based on LST Analysis of Landsat 8 Satellite Imagery Using GEE Cloud Computing’.</p>
 
 
 </section>
