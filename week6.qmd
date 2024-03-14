@@ -10,6 +10,8 @@ Classification trees partition the dataset recursively using predictor variables
 
 #### Regression tree
 
+#### Overfitting
+
 ### Practical result
 In the practical part, we've use two train test (Random forest). However, the different between them is that the first one is done by ploygons while the other one is done by using pixels. By comparing the result, the one used polygons is with plenty of errors and the accuracy of the model is unacceptable.
 
