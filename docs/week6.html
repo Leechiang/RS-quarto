@@ -223,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
 <figcaption class="figure-caption">RF polygon</figcaption>
 </figure>
 </div>
-<p>In contrast, the result by using pixels is more acceptable and reasonable. But the results shows that the accuracy of the model is about 100% which is not as expected. It can be known that overfitting might be occur during RF pixel.</p>
+<p>In contrast, the result by using pixels is more acceptable and reasonable. But the results shows that the accuracy of the model is about 100% which is not as expected. It can be known that overfitting might be occur during RF pixel. In addition, the possible reason that occurring overfitting is that when I get ploygon for different land covers, I try to avoid 5000 elements which is the highest capability for GEE so the polygon might be too small as training data for RF. The pixels from the polygon may not be representative. Moreover, unlike SNAP, when I draw polygons, we got Spectrum Viewer to check which land cover I am choosing but we don’t have it in GEE so there might cause some error for training data.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="img/屏幕截图 2024-03-13 175926.jpg" class="img-fluid figure-img"></p>
