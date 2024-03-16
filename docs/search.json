@@ -179,7 +179,7 @@
     "href": "week6.html#applications",
     "title": "6  Week 6 Classification I",
     "section": "6.2 Applications",
-    "text": "6.2 Applications"
+    "text": "6.2 Applications\nAs it mentioned in the practical result, overfitting might occur when using CART. In order to solve the weakness of CART. Some alternative methods had been developed. For example, Boosted CART is a method for improving decision tree predictions that may be applied to both classification and regression tasks. It generates trees successively, each using information from the previous one and fitting them to modified versions of the original dataset. As a result, Boosted CART excels at handling large datasets and complex trees. Its value is in integrating numerous decision trees to produce forecasts with smaller variance, hence overcoming CART’s constraints.Furthermore, Samir and his colleagues (Samir Barman, Ramasubramanian V, and Mrinmoy Ray, 2019) compared the performances of CART and Boosted CART with the same data from agricultural ergonomics. They found out that in terms of classification accuracy, Boosted CART outperforms CART on the same datasets."
   },
   {
     "objectID": "week6.html#reflections",
@@ -193,6 +193,6 @@
     "href": "week6.html#reference",
     "title": "6  Week 6 Classification I",
     "section": "6.4 Reference",
-    "text": "6.4 Reference"
+    "text": "6.4 Reference\nSamir Barman, Ramasubramanian V, and Mrinmoy Ray (2019) ‘An application of Boosted Classification and Regression Trees (CART) in agricultural ergonomics’."
   }
 ]
