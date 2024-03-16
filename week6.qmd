@@ -11,6 +11,7 @@ CART (Classification and Regression Trees) is a decision tree approach for solvi
 Overfitting occurs when a model highly adapts to the features and noise in training data, resulting in poor performance on new data. Methods for addressing overfitting include restraining decision tree growth, pruning, and modifying regularisation parameters. Limiting the growth of decision trees lowers model complexity by imposing constraints such as minimum sample size in leaf nodes, whereas pruning decreases complexity by deleting specific nodes from the tree. Adjusting regularisation parameters, such as raising them, can help to reduce model complexity and the danger of overfitting. When evaluating model performance, data is often separated into training and testing sets, and model performance is compared.
 
 #### Random forest (RF)
+Random Forest is an technique that builds several decision trees and combines them for classification or regression problems. During each tree's training, it reduces overfitting by using random sampling and random feature selection, while evaluating the model's performance with out-of-bag data. Its main advantages include its capacity to handle huge datasets and high-dimensional data, as well as its resilience to noise. Random Forest uses out-of-bag (OOB) error estimation to provide an accurate assessment of model performance without requiring extra validation datasets.
 
 ### Practical result
 
