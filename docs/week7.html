@@ -177,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">7.1</span> Summary</a>
   <ul class="collapse">
-  <li><a href="#classification-and-regression-trees-cart" id="toc-classification-and-regression-trees-cart" class="nav-link" data-scroll-target="#classification-and-regression-trees-cart"><span class="header-section-number">7.1.1</span> Classification and regression trees (CART)</a></li>
+  <li><a href="#object-based-image-analysis-obia" id="toc-object-based-image-analysis-obia" class="nav-link" data-scroll-target="#object-based-image-analysis-obia"><span class="header-section-number">7.1.1</span> Object based image analysis (OBIA)</a></li>
   <li><a href="#practical-result" id="toc-practical-result" class="nav-link" data-scroll-target="#practical-result"><span class="header-section-number">7.1.2</span> Practical result</a></li>
   </ul></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">7.2</span> Applications</a></li>
@@ -208,9 +208,9 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2" data-number="7.1">
 <h2 data-number="7.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">7.1</span> Summary</h2>
-<section id="classification-and-regression-trees-cart" class="level3" data-number="7.1.1">
-<h3 data-number="7.1.1" class="anchored" data-anchor-id="classification-and-regression-trees-cart"><span class="header-section-number">7.1.1</span> Classification and regression trees (CART)</h3>
-<p>CART (Classification and Regression Trees) is a decision tree approach for solving classification and regression issues. To construct the tree, the data is recursively divided into smaller subsets and simple models are built on each. Each node in the tree represents a characteristic, each branch represents a potential value for that feature, and the leaf nodes include either categories (for classification problems) or numerical values (for regression problems).</p>
+<section id="object-based-image-analysis-obia" class="level3" data-number="7.1.1">
+<h3 data-number="7.1.1" class="anchored" data-anchor-id="object-based-image-analysis-obia"><span class="header-section-number">7.1.1</span> Object based image analysis (OBIA)</h3>
+<p>Object-based image analysis (OBIA) is an advanced analytical method for remote sensing images that identifies ground features by segmenting images into several objects and taking into account their spatial and spectral properties. Common superpixel approaches, such as the SLIC algorithm, may generate representative objects, while software packages like Supercells allow for variable parameter adjustments. OBIA also includes feature extraction and classification steps, which combine average spectral values with other morphological data to classify objects. Furthermore, more advanced technologies, such as SegOptim, can incorporate other algorithms, expanding segmentation and classification possibilities to improve OBIA capability. In summary, OBIA effectively detects land features using object-level analysis and processing, providing critical support for geographical information systems and other domains.</p>
 <section id="overfitting" class="level4" data-number="7.1.1.1">
 <h4 data-number="7.1.1.1" class="anchored" data-anchor-id="overfitting"><span class="header-section-number">7.1.1.1</span> Overfitting</h4>
 <p>Overfitting occurs when a model highly adapts to the features and noise in training data, resulting in poor performance on new data. Methods for addressing overfitting include restraining decision tree growth, pruning, and modifying regularisation parameters. Limiting the growth of decision trees lowers model complexity by imposing constraints such as minimum sample size in leaf nodes, whereas pruning decreases complexity by deleting specific nodes from the tree. Adjusting regularisation parameters, such as raising them, can help to reduce model complexity and the danger of overfitting. When evaluating model performance, data is often separated into training and testing sets, and model performance is compared.</p>

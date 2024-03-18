@@ -2,9 +2,9 @@
 
 ## Summary
 
-### Classification and regression trees (CART)
+### Object based image analysis (OBIA)
 
-CART (Classification and Regression Trees) is a decision tree approach for solving classification and regression issues. To construct the tree, the data is recursively divided into smaller subsets and simple models are built on each. Each node in the tree represents a characteristic, each branch represents a potential value for that feature, and the leaf nodes include either categories (for classification problems) or numerical values (for regression problems).
+Object-based image analysis (OBIA) is an advanced analytical method for remote sensing images that identifies ground features by segmenting images into several objects and taking into account their spatial and spectral properties. Common superpixel approaches, such as the SLIC algorithm, may generate representative objects, while software packages like Supercells allow for variable parameter adjustments. OBIA also includes feature extraction and classification steps, which combine average spectral values with other morphological data to classify objects. Furthermore, more advanced technologies, such as SegOptim, can incorporate other algorithms, expanding segmentation and classification possibilities to improve OBIA capability. In summary, OBIA effectively detects land features using object-level analysis and processing, providing critical support for geographical information systems and other domains.
 
 #### Overfitting
 Overfitting occurs when a model highly adapts to the features and noise in training data, resulting in poor performance on new data. Methods for addressing overfitting include restraining decision tree growth, pruning, and modifying regularisation parameters. Limiting the growth of decision trees lowers model complexity by imposing constraints such as minimum sample size in leaf nodes, whereas pruning decreases complexity by deleting specific nodes from the tree. Adjusting regularisation parameters, such as raising them, can help to reduce model complexity and the danger of overfitting. When evaluating model performance, data is often separated into training and testing sets, and model performance is compared.
