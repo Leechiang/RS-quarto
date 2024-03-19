@@ -3,7 +3,6 @@
 ## Summary
 
 ### Object based image analysis (OBIA)
-
 Object-based image analysis (OBIA) is an advanced analytical method for remote sensing images that identifies ground features by segmenting images into several objects and taking into account their spatial and spectral properties. Common superpixel approaches, such as the SLIC algorithm, may generate representative objects, while software packages like Supercells allow for variable parameter adjustments. OBIA also includes feature extraction and classification steps, which combine average spectral values with other morphological data to classify objects. Furthermore, more advanced technologies, such as SegOptim, can incorporate other algorithms, expanding segmentation and classification possibilities to improve OBIA capability. In summary, OBIA effectively detects land features using object-level analysis and processing, providing critical support for geographical information systems and other domains.
 
 ### Sub pixel analysis
@@ -13,14 +12,10 @@ When performing subpixel analysis in urban environments, it is critical to consi
 Accuracy assessment is a critical job used to evaluate the performance of classification models. In this phase, we concentrate on Producer Accuracy (PA) and User Accuracy (UA), which reflect the consistency of classification results with ground truth data, as well as the usability of classification findings for users. The Kappa coefficient, a commonly used statistic, seeks to assess the consistency of classification results with random results, taking into account random agreement and offering a standardised value. While the Kappa coefficient has positives, it is also criticised for its great complexity and susceptibility to class imbalances. To summarise, the suitable metrics are determined by the unique application and data properties.
 
 ### Practical result
+The practical for this week is also focused on the classification but with the method of OBIA and Sub-pixel.By comparing the results of OBIA and sub-pixel, it
+![OBIA Classified](img/屏幕截图 2024-03-19 163032.jpg)
 
-In the practical part, we've use two train test (Random forest). However, the different between them is that the first one is done by ploygons while the other one is done by using pixels. By comparing the result, the one used polygons is with plenty of errors and the accuracy of the model is unacceptable.
-
-![RF polygon](img/屏幕截图%202024-03-13%20191356.jpg)
-
-In contrast, the result by using pixels is more acceptable and reasonable. But the results shows that the accuracy of the model is about 100% which is not as expected. It can be known that overfitting might be occur during RF pixel. In addition, the possible reason that occurring overfitting is that when I get ploygon for different land covers, I try to avoid 5000 elements which is the highest capability for GEE so the polygon might be too small as training data for RF. The pixels from the polygon may not be representative. Moreover, unlike SNAP, when I draw polygons, we got Spectrum Viewer to check which land cover I am choosing but we don't have it in GEE so there might cause some error for training data.
-
-![RF pixel](img/屏幕截图%202024-03-13%20175926.jpg)
+![OBIA Classified](img/屏幕截图 2024-03-19 162710.jpg)
 
 ## Applications
 In this week, we've introduced the classification methods of OBIA and sub-pixel. However, it troubles me that how to determine whether OBIA and sub-pixel analysis to use. In addition, a research which done by Sumbal, Shah and their colleagues(Sumbal Bahar Saba et al., 2022), had investigated investigate and assessed the advantages and disadvantages of pixel, sub-pixel, and Object-Based Image Analysis (OBIA)-based approaches for identifying co-seismic landslides in Muzaffarabad, Pakistan.
