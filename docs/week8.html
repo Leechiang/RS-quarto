@@ -30,7 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./intro.html" rel="next">
 <link href="./week7.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -153,24 +152,6 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Week 8 Synthetic Aperture Radar (SAR) data</span></span></a>
   </div>
 </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Introduction</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./summary.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Summary</span></span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">References</span></a>
-  </div>
-</li>
     </ul>
     </div>
 </nav>
@@ -184,9 +165,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary"><span class="header-section-number">8.1</span> Summary</a>
   <ul class="collapse">
   <li><a href="#sar-data" id="toc-sar-data" class="nav-link" data-scroll-target="#sar-data"><span class="header-section-number">8.1.1</span> SAR data</a></li>
-  <li><a href="#sub-pixel-analysis" id="toc-sub-pixel-analysis" class="nav-link" data-scroll-target="#sub-pixel-analysis"><span class="header-section-number">8.1.2</span> Sub pixel analysis</a></li>
-  <li><a href="#accuracy-assessment" id="toc-accuracy-assessment" class="nav-link" data-scroll-target="#accuracy-assessment"><span class="header-section-number">8.1.3</span> Accuracy assessment</a></li>
-  <li><a href="#practical-result" id="toc-practical-result" class="nav-link" data-scroll-target="#practical-result"><span class="header-section-number">8.1.4</span> Practical result</a></li>
+  <li><a href="#identify-changes-with-sar-data" id="toc-identify-changes-with-sar-data" class="nav-link" data-scroll-target="#identify-changes-with-sar-data"><span class="header-section-number">8.1.2</span> Identify changes with SAR data</a></li>
+  <li><a href="#practical-result" id="toc-practical-result" class="nav-link" data-scroll-target="#practical-result"><span class="header-section-number">8.1.3</span> Practical result</a></li>
   </ul></li>
   <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">8.2</span> Applications</a></li>
   <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">8.3</span> Reflections</a></li>
@@ -219,18 +199,15 @@ ul.task-list li input[type="checkbox"] {
 <section id="sar-data" class="level3" data-number="8.1.1">
 <h3 data-number="8.1.1" class="anchored" data-anchor-id="sar-data"><span class="header-section-number">8.1.1</span> SAR data</h3>
 <p>There are several types of Synthetic Aperture Radar (SAR) data, including power scale, amplitude scale, and dB scale, each of them provides distinct insights on surface properties.</p>
-<p>For instance, when choosing SAR data, it is important to consider the target detection goal, such as recognizing surface roughness or material volume and geographical factors such as water bodies. Choosing the appropriate SAR data ensure effective analysis according to objectives and environmental circumstances.</p>
+<p>For instance, when choosing SAR data, it is important to consider the target detection goal, such as recognizing surface roughness or material volume and geographical factors. Different types of SAR data can be suitable for different ambitions, for example, amplitude scale is suitable for visualization and dB scale is for dark pixel differences. Therefore, choosing the appropriate SAR data ensure effective analysis according to objectives and environmental circumstances.</p>
 </section>
-<section id="sub-pixel-analysis" class="level3" data-number="8.1.2">
-<h3 data-number="8.1.2" class="anchored" data-anchor-id="sub-pixel-analysis"><span class="header-section-number">8.1.2</span> Sub pixel analysis</h3>
-<p>When performing subpixel analysis in urban environments, it is critical to consider factors such as pixel mixing, suitable endmember selection, and computing complexity. The V-I-S model simplifies land cover classification, whereas multiple endmember spectral analysis (MESMA) calculates the fraction of each land cover type inside pixels. These methods, which take into account computational resources and spectrum libraries, improve the accuracy and usability of subpixel analysis, allowing for better urban land cover monitoring and mapping. Subpixel analysis is critical in metropolitan environments due to different land cover types and complex spatial distributions, which frequently result in mixed land cover within pixels. It delivers exact land cover data for urban planning, environmental monitoring, and resource management.</p>
+<section id="identify-changes-with-sar-data" class="level3" data-number="8.1.2">
+<h3 data-number="8.1.2" class="anchored" data-anchor-id="identify-changes-with-sar-data"><span class="header-section-number">8.1.2</span> Identify changes with SAR data</h3>
+<p>There are four common methods for identifying changes in SAR images: mean ratio images, log ratio images, improved ratio log ratio images, and original ratio images. Mean ratio images show changes by calculating the ratio of mean values from corresponding neighborhoods in two photos while log ratio images make changes more visible by taking the natural logarithm of the pixel value ratio between the two images. In addition, improved ratio log ratio images use improved ratio techniques and logarithmic transformation to increase sensitivity to changes and reduce dynamic range. Then, the original ratio images entail directly computing the pixel value ratio between two photos.</p>
+<p>Moreover, with the high temporal nature of SAR data, we can also identify the changes through t-tests and standard deviations. However, SAR data often do not follow a normal distribution, but rather gamma or other skewed distributions, making typical statistical tests difficult to apply. To solve this, data transformation or non-parametric testing techniques might be used. Change detection in SAR data is often performed using continuous change detection algorithms that do not rely on specific data distribution assumptions. As a result, while working with SAR data, it is critical to use proper statistical methods and carefully analyse the data features to ensure reliable analysis results.</p>
 </section>
-<section id="accuracy-assessment" class="level3" data-number="8.1.3">
-<h3 data-number="8.1.3" class="anchored" data-anchor-id="accuracy-assessment"><span class="header-section-number">8.1.3</span> Accuracy assessment</h3>
-<p>Accuracy assessment is a critical job used to evaluate the performance of classification models. In this phase, we concentrate on Producer Accuracy (PA) and User Accuracy (UA), which reflect the consistency of classification results with ground truth data, as well as the usability of classification findings for users. The Kappa coefficient, a commonly used statistic, seeks to assess the consistency of classification results with random results, taking into account random agreement and offering a standardised value. While the Kappa coefficient has positives, it is also criticised for its great complexity and susceptibility to class imbalances. To summarise, the suitable metrics are determined by the unique application and data properties.</p>
-</section>
-<section id="practical-result" class="level3" data-number="8.1.4">
-<h3 data-number="8.1.4" class="anchored" data-anchor-id="practical-result"><span class="header-section-number">8.1.4</span> Practical result</h3>
+<section id="practical-result" class="level3" data-number="8.1.3">
+<h3 data-number="8.1.3" class="anchored" data-anchor-id="practical-result"><span class="header-section-number">8.1.3</span> Practical result</h3>
 <p>The practical for this week is also focused on the classification but with the method of OBIA and Sub-pixel.However, I found out that the results of these two methods varies a lot.The screenshot below is the result of sub-pixel: <img src="img/屏幕截图 2024-03-19 163032.jpg" class="img-fluid" alt="OBIA Classified"> It can be viewed that the forest is scattered in the whole area (Green) while the bare earth (Grey) and Urban (Pink) owns the most proportion.However, the result of OBIA shows that the forest and grass are the majority land covers in the study area. <img src="img/屏幕截图 2024-03-19 162710.jpg" class="img-fluid" alt="OBIA Classified"> The reason causes this huge difference can be concluded that: The data might not be taken properly. To be instance, I took 7 polygons for each land cover. However, as I mentioned in last week, it is hard for me to identify what land cover it is when I was drawing especially for tree and grass. And the OBIA analysis the areas with shapes and identify the landcover types by the properties of each shape, so the areas with similar properties might be identified as the same. In this case, the area of grass and forest might be identified as the same. Also, from the original image of study area (Daressalaam), it can be viewed that the bare earth and urban are surrounded with grass and forest, so it may cause errors when doing the classification. However, in my point of view, by comparing the results with the actual land cover, I think that sub-pixel method might be more applicable to this case. The specific accuracy analysis should be used in order to give out the result as we’ve done last week. <img src="img/屏幕截图 2024-03-20 081844.jpg" class="img-fluid" alt="OBIA Classified"></p>
 </section>
 </section>
@@ -491,9 +468,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./intro.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Introduction</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
