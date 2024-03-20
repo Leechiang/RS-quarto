@@ -14,16 +14,15 @@ Accuracy assessment is a critical job used to evaluate the performance of classi
 ### Practical result
 The practical for this week is also focused on the classification but with the method of OBIA and Sub-pixel.However, I found out that the results of these two methods varies a lot.The screenshot below is the result of sub-pixel:
 ![OBIA Classified](img/屏幕截图 2024-03-19 163032.jpg)
-It can be viewed that the forest is scattered in the whole area (Green) while the bare
+It can be viewed that the forest is scattered in the whole area (Green) while the bare earth (Grey) and Urban (Pink) owns the most proportion.However, the result of OBIA shows that the forest and grass are the majority land covers in the study area.
 ![OBIA Classified](img/屏幕截图 2024-03-19 162710.jpg)
-
 The reason causes this huge difference can be concluded that:
 The data might not be taken properly. To be instance, I took 7 polygons for each land cover. However, as I mentioned in last week, it is hard for me to identify what land cover it is  when I was drawing especially for tree and grass. And the OBIA analysis the areas with shapes and identify the landcover types by the properties of each shape, so the areas with similar properties might be identified as the same. In this case, the area of grass and forest might be identified as the same. Also, from the original image of study area (Daressalaam), it can be viewed that the bare earth and urban are surrounded with grass and forest, so it may cause errors when doing the classification.
-However, in my point of view, I think that sub-pixel method might be more applicable to this case. The specific accuracy analysis should be used in order to give out the result as we've done last week.
+However, in my point of view, by comparing the results with the actual land cover, I think that sub-pixel method might be more applicable to this case. The specific accuracy analysis should be used in order to give out the result as we've done last week.
 ![OBIA Classified](img/屏幕截图 2024-03-20 081844.jpg)
 
 ## Applications
-In this week, we've introduced the classification methods of OBIA and sub-pixel. However, it troubles me that how to determine whether OBIA and sub-pixel analysis to use. In addition, a research which done by Sumbal, Shah and their colleagues(Sumbal Bahar Saba et al., 2022), had investigated investigate and assessed the advantages and disadvantages of pixel, sub-pixel, and Object-Based Image Analysis (OBIA)-based approaches for identifying co-seismic landslides in Muzaffarabad, Pakistan.
+In this week, we've introduced the classification methods of OBIA and sub-pixel. However, it troubles me that how to determine whether OBIA and sub-pixel analysis to use especially when I had done the practical which the results of the two methods varied a lot. After searching relevant literature and research, I found a research which done by Sumbal, Shah and their colleagues(Sumbal Bahar Saba et al., 2022), had investigated investigate and assessed the advantages and disadvantages of pixel, sub-pixel, and Object-Based Image Analysis (OBIA)-based approaches for identifying co-seismic landslides in Muzaffarabad, Pakistan. They found out that the accuracy of sub-pixel method is 90.9% while the one of OBIA is 91.4%. For instance, they've indicated that when using OBIA, high resolution images might be required while sub-pixel is a more cost-efficient way. Therefore, I inferred that OBIA and sub-pixel own their pros and cons but OBIA can get high accuracy with high resolution images while the one of sub-pixel can perform well in medium resolution images. Moreover, a research (Y. Gao and J.F. Mas, no date)had compared the performance of OBIA and sub-pixel in four different resolutions, they concluded that 
 
 
 ## Reflections
@@ -32,4 +31,5 @@ Once again, GEE is a very powerful tool. I couldn't imagine how time consuming w
 ## Reference
 Sumbal Bahar Saba et al. (2022) ‘Comparison of pixel, sub‑pixel and object‑based image  analysis techniques for co‑seismic landslides detection  in seismically active area in Lesser Himalaya, Pakistan’.
 
+Y. Gao and J.F. Mas (no date) ‘A COMPARISON OF THE PERFORMANCE OF PIXEL-BASED AND OBJECT-BASED CLASSIFICATIONS OVER IMAGES WITH VARIOUS SPATIAL RESOLUTIONS’.
 
