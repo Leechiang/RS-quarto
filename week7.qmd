@@ -12,9 +12,11 @@ When performing subpixel analysis in urban environments, it is critical to consi
 Accuracy assessment is a critical job used to evaluate the performance of classification models. In this phase, we concentrate on Producer Accuracy (PA) and User Accuracy (UA), which reflect the consistency of classification results with ground truth data, as well as the usability of classification findings for users. The Kappa coefficient, a commonly used statistic, seeks to assess the consistency of classification results with random results, taking into account random agreement and offering a standardised value. While the Kappa coefficient has positives, it is also criticised for its great complexity and susceptibility to class imbalances. To summarise, the suitable metrics are determined by the unique application and data properties. 
 
 ### Practical result
-The practical for this week is also focused on the classification but with the method of OBIA and Sub-pixel.However, I found out that the results of these two methods varies a lot.
+The practical for this week is also focused on the classification but with the method of OBIA and Sub-pixel.However, I found out that the results of these two methods varies a lot.The screenshot below is the result of sub-pixel:
 ![OBIA Classified](img/屏幕截图 2024-03-19 163032.jpg)
+It can be viewed that the forest is scattered in the whole area (Green) while the bare
 ![OBIA Classified](img/屏幕截图 2024-03-19 162710.jpg)
+
 The reason causes this huge difference can be concluded that:
 The data might not be taken properly. To be instance, I took 7 polygons for each land cover. However, as I mentioned in last week, it is hard for me to identify what land cover it is  when I was drawing especially for tree and grass. And the OBIA analysis the areas with shapes and identify the landcover types by the properties of each shape, so the areas with similar properties might be identified as the same. In this case, the area of grass and forest might be identified as the same. Also, from the original image of study area (Daressalaam), it can be viewed that the bare earth and urban are surrounded with grass and forest, so it may cause errors when doing the classification.
 However, in my point of view, I think that sub-pixel method might be more applicable to this case. The specific accuracy analysis should be used in order to give out the result as we've done last week.
