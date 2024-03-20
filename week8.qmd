@@ -1,0 +1,37 @@
+# Week 8 Synthetic Aperture Radar (SAR) data
+
+## Summary
+
+### SAR in GEE
+Object-based image analysis (OBIA) is an advanced analytical method for remote sensing images that identifies ground features by segmenting images into several objects and taking into account their spatial and spectral properties. Common superpixel approaches, such as the SLIC algorithm, may generate representative objects, while software packages like Supercells allow for variable parameter adjustments. OBIA also includes feature extraction and classification steps, which combine average spectral values with other morphological data to classify objects. Furthermore, more advanced technologies, such as SegOptim, can incorporate other algorithms, expanding segmentation and classification possibilities to improve OBIA capability. In summary, OBIA effectively detects land features using object-level analysis and processing, providing critical support for geographical information systems and other domains.
+
+### Sub pixel analysis
+When performing subpixel analysis in urban environments, it is critical to consider factors such as pixel mixing, suitable endmember selection, and computing complexity. The V-I-S model simplifies land cover classification, whereas multiple endmember spectral analysis (MESMA) calculates the fraction of each land cover type inside pixels. These methods, which take into account computational resources and spectrum libraries, improve the accuracy and usability of subpixel analysis, allowing for better urban land cover monitoring and mapping. Subpixel analysis is critical in metropolitan environments due to different land cover types and complex spatial distributions, which frequently result in mixed land cover within pixels. It delivers exact land cover data for urban planning, environmental monitoring, and resource management.
+
+### Accuracy assessment
+Accuracy assessment is a critical job used to evaluate the performance of classification models. In this phase, we concentrate on Producer Accuracy (PA) and User Accuracy (UA), which reflect the consistency of classification results with ground truth data, as well as the usability of classification findings for users. The Kappa coefficient, a commonly used statistic, seeks to assess the consistency of classification results with random results, taking into account random agreement and offering a standardised value. While the Kappa coefficient has positives, it is also criticised for its great complexity and susceptibility to class imbalances. To summarise, the suitable metrics are determined by the unique application and data properties. 
+
+### Practical result
+The practical for this week is also focused on the classification but with the method of OBIA and Sub-pixel.However, I found out that the results of these two methods varies a lot.The screenshot below is the result of sub-pixel:
+![OBIA Classified](img/屏幕截图 2024-03-19 163032.jpg)
+It can be viewed that the forest is scattered in the whole area (Green) while the bare earth (Grey) and Urban (Pink) owns the most proportion.However, the result of OBIA shows that the forest and grass are the majority land covers in the study area.
+![OBIA Classified](img/屏幕截图 2024-03-19 162710.jpg)
+The reason causes this huge difference can be concluded that:
+The data might not be taken properly. To be instance, I took 7 polygons for each land cover. However, as I mentioned in last week, it is hard for me to identify what land cover it is  when I was drawing especially for tree and grass. And the OBIA analysis the areas with shapes and identify the landcover types by the properties of each shape, so the areas with similar properties might be identified as the same. In this case, the area of grass and forest might be identified as the same. Also, from the original image of study area (Daressalaam), it can be viewed that the bare earth and urban are surrounded with grass and forest, so it may cause errors when doing the classification.
+However, in my point of view, by comparing the results with the actual land cover, I think that sub-pixel method might be more applicable to this case. The specific accuracy analysis should be used in order to give out the result as we've done last week.
+![OBIA Classified](img/屏幕截图 2024-03-20 081844.jpg)
+
+## Applications
+In this week, we've introduced the classification methods of OBIA and sub-pixel. However, it troubles me that how to determine whether OBIA and sub-pixel analysis to use especially when I had done the practical which the results of the two methods varied a lot. After searching relevant literature and research, I found a research which done by Sumbal, Shah and their colleagues(Sumbal Bahar Saba et al., 2022), had investigated investigate and assessed the advantages and disadvantages of pixel, sub-pixel, and Object-Based Image Analysis (OBIA)-based approaches for identifying co-seismic landslides in Muzaffarabad, Pakistan. They found out that the accuracy of sub-pixel method is 90.9% while the one of OBIA is 91.4%. 
+![OBIA Classified](img/屏幕截图 2024-03-20 115758.jpg)
+For instance, they've indicated that when using OBIA, high resolution images might be required while sub-pixel is a more cost-efficient way. Therefore, I inferred that OBIA and sub-pixel own their pros and cons but OBIA can get high accuracy with high resolution images while the one of sub-pixel can perform well in medium resolution images. Moreover, a research (Y. Gao and J.F. Mas, no date)had compared the performance of OBIA and sub-pixel in four different resolutions, they concluded that OBIA has advantages on dealing high resolution images and the advantages become more and more significant with the increase of resolutions.
+
+
+## Reflections
+The lecture for this week indeed took me some time to get understand especially for the accuracy part because I think it is the most important part due to the fact that if we cannot figure out the most suitable method for doing the classification, the most convincing way is to use accuracy test to evaluate different methods. However, as I have mentioned several time in this week and a couple weeks before, it been a challenge for me to identify the land covers when drawing polygons, I know that it works better when I zoom in but then the polygons might be too small then the accuracy would be affected when we use pixel based methods. Although I encounter many challenges using GEE but I really enjoy it cause it is a really sufficient application.
+
+## Reference
+Sumbal Bahar Saba et al. (2022) ‘Comparison of pixel, sub‑pixel and object‑based image  analysis techniques for co‑seismic landslides detection  in seismically active area in Lesser Himalaya, Pakistan’.
+
+Y. Gao and J.F. Mas (no date) ‘A COMPARISON OF THE PERFORMANCE OF PIXEL-BASED AND OBJECT-BASED CLASSIFICATIONS OVER IMAGES WITH VARIOUS SPATIAL RESOLUTIONS’.
+
