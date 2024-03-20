@@ -2,8 +2,10 @@
 
 ## Summary
 
-### SAR in GEE
-Object-based image analysis (OBIA) is an advanced analytical method for remote sensing images that identifies ground features by segmenting images into several objects and taking into account their spatial and spectral properties. Common superpixel approaches, such as the SLIC algorithm, may generate representative objects, while software packages like Supercells allow for variable parameter adjustments. OBIA also includes feature extraction and classification steps, which combine average spectral values with other morphological data to classify objects. Furthermore, more advanced technologies, such as SegOptim, can incorporate other algorithms, expanding segmentation and classification possibilities to improve OBIA capability. In summary, OBIA effectively detects land features using object-level analysis and processing, providing critical support for geographical information systems and other domains.
+### SAR data
+There are several types of Synthetic Aperture Radar (SAR) data, including power scale, amplitude scale, and dB scale, each of them provides distinct insights on surface properties.
+
+For instance, when choosing SAR data, it is important to consider the target detection goal, such as recognizing surface roughness or material volume and geographical factors such as water bodies. Choosing the appropriate SAR data ensure effective analysis according to objectives and environmental circumstances.
 
 ### Sub pixel analysis
 When performing subpixel analysis in urban environments, it is critical to consider factors such as pixel mixing, suitable endmember selection, and computing complexity. The V-I-S model simplifies land cover classification, whereas multiple endmember spectral analysis (MESMA) calculates the fraction of each land cover type inside pixels. These methods, which take into account computational resources and spectrum libraries, improve the accuracy and usability of subpixel analysis, allowing for better urban land cover monitoring and mapping. Subpixel analysis is critical in metropolitan environments due to different land cover types and complex spatial distributions, which frequently result in mixed land cover within pixels. It delivers exact land cover data for urban planning, environmental monitoring, and resource management.
