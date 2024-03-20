@@ -7,9 +7,11 @@
 CART (Classification and Regression Trees) is a decision tree approach for solving classification and regression issues. To construct the tree, the data is recursively divided into smaller subsets and simple models are built on each. Each node in the tree represents a characteristic, each branch represents a potential value for that feature, and the leaf nodes include either categories (for classification problems) or numerical values (for regression problems).
 
 #### Overfitting
+
 Overfitting occurs when a model highly adapts to the features and noise in training data, resulting in poor performance on new data. Methods for addressing overfitting include restraining decision tree growth, pruning, and modifying regularisation parameters. Limiting the growth of decision trees lowers model complexity by imposing constraints such as minimum sample size in leaf nodes, whereas pruning decreases complexity by deleting specific nodes from the tree. Adjusting regularisation parameters, such as raising them, can help to reduce model complexity and the danger of overfitting. When evaluating model performance, data is often separated into training and testing sets, and model performance is compared.
 
 #### Random forest (RF)
+
 Random Forest is an technique that builds several decision trees and combines them for classification or regression problems. During each tree's training, it reduces overfitting by using random sampling and random feature selection, while evaluating the model's performance with out-of-bag data. Its main advantages include its capacity to handle huge datasets and high-dimensional data, as well as its resilience to noise. Random Forest uses out-of-bag (OOB) error estimation to provide an accurate assessment of model performance without requiring extra validation datasets.
 
 ### Practical result
@@ -23,18 +25,19 @@ In contrast, the result by using pixels is more acceptable and reasonable. But t
 ![RF pixel](img/屏幕截图%202024-03-13%20175926.jpg)
 
 ## Applications
+
 As it mentioned in the practical result, overfitting might occur when using CART. In order to solve the weakness of CART. Some alternative methods had been developed. For example, Boosted CART is a method for improving decision tree predictions that may be applied to both classification and regression tasks. It generates trees successively, each using information from the previous one and fitting them to modified versions of the original dataset. As a result, Boosted CART excels at handling large datasets and complex trees. Its value is in integrating numerous decision trees to produce forecasts with smaller variance, hence overcoming CART's constraints.Furthermore, Samir and his colleagues (Samir Barman, Ramasubramanian V, and Mrinmoy Ray, 2019) compared the performances of CART and Boosted CART with the same data from agricultural ergonomics. They found out that in terms of classification accuracy, Boosted CART outperforms CART on the same datasets. Moreover, when I was viewing the lecture slides, a graph caught me:
 
-![RF pixel](img/屏幕截图 2024-03-16 161025.jpg)
-The graph shows the comparisons of different machine learning classification algorithms. From the graph, it can be inferred that when comparing with RF, CART has lower accuracy, but it owns higher interpretability. When I was confusing what makes the difference between accuracy and interpretability, a research solved my question. In the research (Anish Kumar, Sanjeev Sinha, and Samir Saurav, 2023), they've investigated the possibilities of stabilising clayey soil with cement and fly ash to strengthen the subgrade pavement layer with RF, multiple regression and CART. The following table shows the result of R square:
+![RF pixel](img/屏幕截图%202024-03-16%20161025.jpg) The graph shows the comparisons of different machine learning classification algorithms. From the graph, it can be inferred that when comparing with RF, CART has lower accuracy, but it owns higher interpretability. When I was confusing what makes the difference between accuracy and interpretability, a research solved my question. In the research (Anish Kumar, Sanjeev Sinha, and Samir Saurav, 2023), they've investigated the possibilities of stabilising clayey soil with cement and fly ash to strengthen the subgrade pavement layer with RF, multiple regression and CART. The following table shows the result of R square:
 
-![RF pixel](img/屏幕截图 2024-03-16 163046.jpg)
-It can be noticed that CART owns the highest R squared result among three algorithms. It is might because that the topic of this research is try to explain the relationship between unconfined compressive strength (UCS) and nonlinear relationships with curing time and binder content.In contrast of classification, which is better with RF because RF may provide higher accuracy.
+![RF pixel](img/屏幕截图%202024-03-16%20163046.jpg) It can be noticed that CART owns the highest R squared result among three algorithms. It is might because that the topic of this research is try to explain the relationship between unconfined compressive strength (UCS) and nonlinear relationships with curing time and binder content.In contrast of classification, which is better with RF because RF may provide higher accuracy.
 
 ## Reflections
+
 Once again, GEE is a very powerful tool. I couldn't imagine how time consuming we do remote sensed data classification in R. Moreover, CART and RF are very interesting because it can be used in many different fields, we also learnt about them in Data science module but in Data science we focused more on regression but classification in this module. For me, as it mentioned in application, it is important to choose the right machine learning algorithm because all of them can be better at accuracy and interpretability.However, further learning should be applied because it occurred overfitting when I was doing the practical though I've redraw my polygons for severral times, the accuracy results show 100%.
 
 ## Reference
-Samir Barman, Ramasubramanian V, and Mrinmoy Ray (2019) ‘An application of Boosted Classification and Regression Trees  (CART) in agricultural ergonomics’.
 
-Anish Kumar, Sanjeev Sinha, and Samir Saurav (2023) ‘Random forest, CART, and MLR‑based predictive model for unconfined  compressive strength of cement reinforced clayey soil: a comparative  analysis’.
+Samir Barman, Ramasubramanian V, and Mrinmoy Ray (2019) 'An application of Boosted Classification and Regression Trees (CART) in agricultural ergonomics'.
+
+Anish Kumar, Sanjeev Sinha, and Samir Saurav (2023) 'Random forest, CART, and MLR‑based predictive model for unconfined compressive strength of cement reinforced clayey soil: a comparative analysis'.
