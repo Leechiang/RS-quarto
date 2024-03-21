@@ -1,4 +1,4 @@
-# Week 2
+# Week 2 ALOS-2 satellite
 
 The presentation below gives a introduction and discussion on ALOS-2 satellite.
 ```{r echo = FALSE, out.width='50%'}
