@@ -1,7 +1,7 @@
 # Week 5 Google Earth Engine
 
 ## Summary
-This week we start to talk about GEE!! The diary this week will be mainly focused on the 
+This week we start to talk about GEE!! The diary this week will be mainly focused on the application of GEE.
 
 ### What is Google Earth Engine
 Google Earth Engine is a useful geographic data processing engine. It makes optimal use of server-side processing and distributed computing to let users handle and analyse massive amounts of geographical data. It makes better use of computational resources by processing data using mapping functions rather than loops. Because of this functionality, Google Earth Engine is one of the most popular systems for handling massive amounts of geospatial data.
@@ -13,12 +13,14 @@ In Google Earth Engine (GEE), we may execute geometric operations, dataset joins
 In the practical part, we've chosen Delhi as the study area. We loaded the Landsat-9 data of Delhi into GEE. Furthermore, we've done several outputs such as PCA, NDVI and gclm which we've done in the previous practical. It is no doubt that the operation time in GEE is much shorter then we had with R. Moreover, it is more convenient to select the output layer with GEE.
 
 #### NDVI
-Comparing with the NDVI which produced with R, the quality of the one from GEE is higher:
+Comparing with the NDVI which produced with R, the quality of the one from GEE is higher, in addition, the vegetation is shown as green in the following:
 
 ![NDVI output](img/Delhi%20NDVI.jpg)
 
 #### PCA
+In GEE, we've export the PCA output image:
 ![PCA output](img/屏幕截图%202024-03-12%20121447.jpg)
+PCA enables us to reduce the dimensions in the image which helps us to extracting the land covers information more efficient. Moreover, It can be viewed that the color of grey is the main component in the image (basically PC1 and PC 2). 
 
 ## Applications
 As it mentioned in the lecture, GEE is a powerful research tool which enables us to deal with massive geospatial data without spending a lot of time. Moreover, the applications of GEE varies a lot in different fields.For instance, the graph below categorizes the applications of GEE (Haifa Tamiminia et al., 2020):

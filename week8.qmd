@@ -1,6 +1,7 @@
 # Week 8 Synthetic Aperture Radar (SAR) data
 
 ## Summary
+This week, we've have a deep introduction on Synthetic Aperture Radar (SAR) data. So the learning diary this week will be focused on how we identify changes with SAR data. Especially, the practical this week is very very interesting!
 
 ### SAR data
 There are several types of Synthetic Aperture Radar (SAR) data, including power scale, amplitude scale, and dB scale, each of them provides distinct insights on surface properties.
@@ -29,7 +30,7 @@ To deal with these problems, recommendations include developing tools for fair c
 
 
 ## Reflections
-
+This week learning diary is the last diary in this module. As I mentioned in my personal introduction, the reason I choose this module is because I want to learn more about how to relate remote sensing with my bachelor study - Architectural Environment Engineering. And indeed, remote sensing actually can contribute to this area a lot. For example, we can use it to investigate the environment around the building with classification or we can identify the changes of buildings with SAR data. During this module, I learned a lot about how to processing remote sensed data such as using GEE and SNAP. Moreover, I realized the fact that it is important to choose appropriate methods and data when we doing our project because each method or data got their advantages and disadvantages. 
 
 ## Reference
 Donato Amitrano et al. (2024) ‘Flood Detection with SAR: A Review of Techniques and Datasets’.
