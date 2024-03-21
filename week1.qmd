@@ -1,6 +1,8 @@
-# Week 1
+# Week 1 An Introduction to Remote Sensing
 
 ## Summary
+This week, we have learnt about what is remote sensing and the basic theories and types of it. However, in order to keep the diary short and try to cover up more details as I can, the content of the lectures will not be fully summarized, instead, some of them will be discussed with my practical results.
+
 ### Introducing remote sensing
 Remote sensing unlike on-site observation, it involves gathering data about an object or phenomenon without coming into direct contact with it. 
 
@@ -11,14 +13,17 @@ The types of remote sensing can be divided into passive and active. Passive sens
 ![Types](img/Types of remote sensing.jpg)
 
 ### Resolutions of remote sensing data
-There are four categories into which remote sensing data resolutions can be separated: spatial, spectral, temporal, and radiometric. Resolution is a measurement of the amount of information that is present in a particular image. This includes wavelengths, colours, and pixels that are recorded over a given amount of time; taken together, these make up the richness of the data that is captured.      An image provides us with more detailed information and improved visual clarity when it has more pixels, colours, and wavelengths. On the other hand, if these components disappear, the imagery might lose some of its clarity and detail. So, it can be said that resolution is important to the quality of remote sensing data for a range of applications.
+There are four categories into which remote sensing data resolutions can be separated: spatial, spectral, temporal, and radiometric. Resolution is a measurement of the amount of information that is present in a particular image. This includes wavelengths, colours, and pixels that are recorded over a given amount of time; taken together, these make up the richness of the data that is captured. An image provides us with more detailed information and improved visual clarity when it has more pixels, colours, and wavelengths. On the other hand, if these components disappear, the imagery might lose some of its clarity and detail. So, it can be said that resolution is important to the quality of remote sensing data for a range of applications.
 
 ### Practical results
-In the first week, I learned about how to use SNAP to process Sentinel 2 and Landsat 8data. In addition, Cape Town was chosen as the study area. The graph below is the screenshot of the Sentinel data:
+In the first week, I learned about how to use SNAP to process Sentinel 2 and Landsat 8 data. In addition, Cape Town was chosen as the study area. The graph below is the screenshot of the Sentinel data:
 ![Sentinel data](img/屏幕截图 2024-02-15 200519.jpg)
+
+
 Then, by comparing the band 4 and band 8 of the target area, a spectural feature space can be made:
 ![Scatter plot](img/240216.jpg)
-Then we had select points of interest on SNAP for sentinel data. From the density plot below, it can be viewed the band values of each land cover. Moreover, the mean values of each band are plot in the graph with vertical lines:
+In addition, it is interesting to downscale the sentinel image from 10m to 30m and compare the two images because Landsat 8 owns wider range of spectral bands, so we use Landsat 8 to check the land covers and draw point of interests in Sentinel 8 image on SNAP. After processing the polygons we've drawn, several plots can be made.
+From the density plot below, it can be viewed the band values of each land cover. Moreover, the mean values of each band are plot in the graph with vertical lines:
 ![Density plot](img/00002.jpg)
 
 ![Spectral profiles](img/000010.jpg)
@@ -31,7 +36,7 @@ Extending from the practical part, there are several comparisons of Landsat 8 an
 
 
 ## Reflections
-This week I had learnt a lot about what is remote sensing is and what can we do with it. Furthermore, the in the practical part, I had compared the differences of remote sensing data from different satellites (Sentinel and Landsat) with a new software-SNAP. However, I have to say it is quite hard and time-consuming for me to deal with raster data on SNAP especially drawing out the point of interests part. As I mentioned, this field is completely new to me, so I got to spend more time on this module. Hopefully I will get better in couple weeks! And I am very curious how remote sensing can be related to the building energy performance, I hope I can find the answer in the next couple weeks.
+This week I had learnt a lot about what is remote sensing is and what can we do with it. Furthermore, the in the practical part, I had compared the differences of remote sensing data from different satellites (Sentinel and Landsat) with a new software-SNAP. We've taken the advantages from them and done analysis. However, I have to say it is quite hard and time-consuming for me to deal with raster data on SNAP especially drawing out the point of interests part. As I mentioned, this field is completely new to me, so I got to spend more time on this module. Hopefully I will get better in couple weeks! And I am very curious how remote sensing can be related to the building energy performance, I hope I can find the answer in the next couple weeks.
 
 ## Reference
 Sentinel-2: Satellite imagery, Overview, and characteristics (2024) EOS Data Analytics. Available at: https://eos.com/find-satellite/sentinel-2/ (Accessed: 04 February 2024). 
