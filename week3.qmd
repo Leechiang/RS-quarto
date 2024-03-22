@@ -15,7 +15,7 @@ The atmospheric correction methods aim to reduce atmospheric influences on photo
 #### Orthorectification correction / topographic correction:
 Orthorectification correction is a subset of georectification that involves providing geographic coordinates to an image while removing distortions caused by terrain. Its aim is to ensure each pixel appears as if it were captured from directly overhead. To achieve this, sensor geometry information, elevation models, and orthorectification algorithms are utilized. The resulting orthorectified image accurately corresponds each pixel to a specific location on the Earth's surface, enabling precise analysis of surface features.
 
-### Enhancement
+### Enhancement (Practical result)
 
 #### Ratio enhancement
 The figure below shows the ratio enhancement of vegetation with the aid of NDVI index (above 0.2):
