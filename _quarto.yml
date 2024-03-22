@@ -1,7 +1,14 @@
 project:
   type: book
   output-dir: docs
-
+navbar:
+    collapse: true
+    collapse-below: lg
+    background: light
+    reader-mode: true
+    search: true
+    right:
+      - icon: github
 book:
   title: "Learning diary by Lee"
   author: "Chi-Li CHIANG"
